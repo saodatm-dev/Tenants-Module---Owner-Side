@@ -68,3 +68,38 @@ Applicant → Contract Signed → Active Tenant → Lease Ending → Move-Out Co
 * **Tenants are not deleted automatically.** When a tenancy ends and move-out is completed, the tenant is moved to "Former Tenant" status. Their full history remains in the system for reference (payment reliability, lease compliance, etc.).
 * **Move-out is always manual.** The system never automatically converts an active tenant to a former tenant. The owner must explicitly confirm that the tenant has vacated. This prevents errors where a holdover tenant is accidentally removed from billing.
 * **One unit, one active tenant.** Each unit can only have one active tenant at a time. A property with multiple units can have multiple tenants, each linked to their own unit. One tenant can also rent multiple units (within the same or different properties) — each rental has its own contract, but they are all linked to the same tenant record.
+
+---
+
+## 4. Tenant Status Model
+
+Every tenant in the system has a status that reflects their current state. Statuses change based on contract dates, owner actions, or system automation.
+
+### Status Definitions
+
+| Status | Meaning | When It Appears | Changed By | Final? |
+|--------|---------|-----------------|------------|--------|
+| **Pending Move-In** | The contract is signed, but the start date has not arrived yet. | Automatically, when a contract is signed with a future start date. | System (automatic). Changes to "Active" when the contract start date arrives. | No |
+| **Active** | The tenant currently occupies the unit and the lease is in effect. | Automatically, when the contract start date arrives or when a contract with today's date (or earlier) is signed. | System (automatic). | No |
+| **Lease Ending** | The contract end date is approaching. The owner needs to decide whether to renew or prepare for move-out. | Automatically, when the system detects the contract is within the notification window (e.g., 30 days before expiry). | System (automatic). The owner can renew the contract (returns to "Active") or let it expire. | No |
+| **Overstaying** | The contract has expired, but the tenant has not moved out and the lease has not been renewed. | Automatically, when the contract end date passes without renewal or a logged move-out. | System (automatic). The owner resolves this by either renewing the contract or logging a move-out. | No |
+| **Former** | The tenant has vacated and the move-out has been confirmed by the owner. The record is archived. | When the owner manually logs a completed move-out. | Owner (manual action). | Yes |
+| **Evicted** | The tenant has been removed due to a lease violation, non-payment, or legal action. | When the owner manually marks the tenant as evicted. | Owner (manual action). | Yes |
+
+### Status Transitions
+
+```
+Pending Move-In → Active → Lease Ending → Overstaying → Former
+                                    ↓                        ↑
+                              (Renewed → Active)         Evicted
+                                                     (from any active status)
+```
+
+### Key Notes
+
+* **"Pending Move-In" and "Active"** are set by the system based on contract dates. The owner does not manually change these.
+* **"Lease Ending"** is a warning state, not a separate action by the owner. It triggers notifications but does not change the tenant's access or billing.
+* **"Overstaying"** keeps the tenant fully active (billing continues, access remains). It is a visual flag indicating the contract needs attention, not a penalty state.
+* **"Former"** and **"Evicted"** are the only final statuses. Once set, the tenant is archived and cannot return to an active state without a new contract.
+* **"Evicted"** is separate from "Former" to distinguish voluntary departures from forced removals. This distinction matters for tenant history and future rental decisions.
+* An owner can log an eviction from any active status (Active, Lease Ending, or Overstaying).

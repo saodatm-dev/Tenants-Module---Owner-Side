@@ -18,7 +18,7 @@ The Tenants module is the property owner's central database for managing confirm
 ### Relationship with Other Modules
 The Tenants module works closely with other system components but serves a distinct purpose from Applications.
 
-*   **Applications (Acquisition):** Manages potential tenants. Once an application is approved and a contract is signed, the applicant converts into a Tenant. Applications module handles acquisition; Tenants module handles retention of renters.
-*   **Listings (Marketing):** The tenant's lifecycle directly triggers actions in the Listings module. For example, when an active tenant's status changes to "Moving Out", the system can automatically prepare a new listing advert for that specific property so you can find a replacement tenant without downtime.
-*   **Contracts (Legal Rules):** Contracts bind tenants to properties. Contract dates (Start, End) automatically update the tenant's lifecycle status (e.g., Active, Expiring Soon).
-*   **Payments (Financials):** The module aggregates payment data to show the tenant's current balance, payment history, and financial reliability.
+*   **Applications:** Manages potential tenants. Once an application is approved and a contract is signed, the applicant converts into a Tenant. Applications module handles acquisition; Tenants module handles retention of renters.
+*   **Listings:** The tenant's lifecycle directly triggers actions in the Listings module. For example, when an active tenant's status changes to "Moving Out", the system can automatically prepare a new listing advert for that specific property so you can find a replacement tenant without downtime.
+*   **Contracts:** Contracts bind tenants to properties. Contract dates (Start, End) automatically update the tenant's lifecycle status (e.g., Active, Expiring Soon).
+*   **Payments:** The module aggregates payment data to show the tenant's current balance, payment history, and financial reliability.

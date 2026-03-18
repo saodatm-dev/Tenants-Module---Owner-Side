@@ -73,7 +73,7 @@ Applicant → Contract Signed → Active Tenant → Lease Ending → Move-Out Co
 
 ## 4. Tenant Status Model
 
-Every tenant in the system has a status that reflects their current state. Statuses change based on contract dates, owner actions, or system automation.
+Every tenant in the system has a status that reflects their current state. Statuses change based on contract dates or owner actions
 
 ### Status Definitions
 

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+	  <Compile Remove="Abstractions\Behaviors\TransactionDecorator.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+		<PackageReference Include="Microsoft.Extensions.Localization" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+		<PackageReference Include="Scrutor" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Core.Domain\Core.Domain.csproj" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\bin\Debug\net10.0\Core.Domain.deps.json
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\bin\Debug\net10.0\Core.Domain.dll
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\bin\Debug\net10.0\Core.Domain.pdb
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\obj\Debug\net10.0\Core.Domain.csproj.AssemblyReference.cache
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\obj\Debug\net10.0\Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\obj\Debug\net10.0\Core.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\obj\Debug\net10.0\Core.Domain.AssemblyInfo.cs
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\obj\Debug\net10.0\Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\obj\Debug\net10.0\Core.Domain.sourcelink.json
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\obj\Debug\net10.0\Core.Domain.dll
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\obj\Debug\net10.0\refint\Core.Domain.dll
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\obj\Debug\net10.0\Core.Domain.pdb
+C:\Users\user\Maydon\web\maydon-api\src\Core\Core.Domain\obj\Debug\net10.0\ref\Core.Domain.dll

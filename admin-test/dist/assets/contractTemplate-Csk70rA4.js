@@ -1,0 +1,1 @@
+const e=[{value:0,label:"Delegation",key:"Delegation"},{value:1,label:"Lease",key:"Lease"},{value:2,label:"Handover",key:"Handover"},{value:3,label:"Communal Bill",key:"CommunalBill"},{value:4,label:"Service Act",key:"ServiceAct"},{value:5,label:"Reconciliation",key:"Reconciliation"}];export{e as C};

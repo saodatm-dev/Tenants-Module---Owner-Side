@@ -1,0 +1,15 @@
+{
+	"profiles": {
+		"Docker Compose": {
+			"commandName": "DockerCompose",
+			"commandVersion": "1.0",
+			"composeLaunchAction": "LaunchBrowser",
+			"composeLaunchServiceName": "maydon.host",
+			"composeLaunchUrl": "{Scheme}://localhost:{ServicePort}/swagger/",
+			"launchBrowser": true,
+			"serviceActions": {
+				"maydon.host": "StartDebugging"
+			}
+		}
+	}
+}

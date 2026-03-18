@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <Compile Remove="Companies\Events\**" />
+    <Compile Remove="CompanyUsers\Events\**" />
+    <Compile Remove="Core\Resources\**" />
+    <Compile Remove="Otps\Registration\**" />
+    <Compile Remove="Otps\RestorePassword\**" />
+    <Compile Remove="Roles\Events\**" />
+    <Compile Remove="Users\Switch\**" />
+    <EmbeddedResource Remove="Companies\Events\**" />
+    <EmbeddedResource Remove="CompanyUsers\Events\**" />
+    <EmbeddedResource Remove="Core\Resources\**" />
+    <EmbeddedResource Remove="Otps\Registration\**" />
+    <EmbeddedResource Remove="Otps\RestorePassword\**" />
+    <EmbeddedResource Remove="Roles\Events\**" />
+    <EmbeddedResource Remove="Users\Switch\**" />
+    <None Remove="Companies\Events\**" />
+    <None Remove="CompanyUsers\Events\**" />
+    <None Remove="Core\Resources\**" />
+    <None Remove="Otps\Registration\**" />
+    <None Remove="Otps\RestorePassword\**" />
+    <None Remove="Roles\Events\**" />
+    <None Remove="Users\Switch\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Accounts\Events\CreateHostAccountPreDomainEventHandler.cs" />
+    <Compile Remove="Accounts\Events\CreatetAccountPreDomainEventHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Core.Application\Core.Application.csproj" />
+    <ProjectReference Include="..\Identity.Domain\Identity.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Companies\Create\" />
+    <Folder Include="Companies\Update\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+    <PackageReference Include="Microsoft.Extensions.Options.DataAnnotations" />
+  </ItemGroup>
+</Project>

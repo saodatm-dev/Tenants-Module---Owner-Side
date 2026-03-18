@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IsRequired" xml:space="preserve">
+    <value>This field is required</value>
+  </data>
+  <data name="IsEmpty" xml:space="preserve">
+    <value>Field is empty</value>
+  </data>
+  <data name="AlreadyExists" xml:space="preserve">
+    <value>This record already exists</value>
+  </data>
+  <data name="AlreadyHost" xml:space="preserve">
+    <value>You are already registered as a host</value>
+  </data>
+  <data name="YouAreNotUsingHost" xml:space="preserve">
+    <value>You are not registered as a host</value>
+  </data>
+  <data name="AlreadyGuest" xml:space="preserve">
+    <value>You are already registered as a guest</value>
+  </data>
+  <data name="YouAreNotUsingGuest" xml:space="preserve">
+    <value>You are not registered as a guest</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Record not found</value>
+  </data>
+  <data name="InvalidValue" xml:space="preserve">
+    <value>Invalid value provided</value>
+  </data>
+  <data name="NoAccess" xml:space="preserve">
+    <value>Access denied</value>
+  </data>
+  <data name="MinimalValueHasToBe" xml:space="preserve">
+    <value>Minimum value must be {0}</value>
+  </data>
+  <data name="MaximumValueHasToBe" xml:space="preserve">
+    <value>Maximum value must be {0}</value>
+  </data>
+  <data name="User_PhoneNumberOrPasswordIncorrect" xml:space="preserve">
+    <value>Phone number or password is incorrect</value>
+  </data>
+  <data name="User_NotFound" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="User_Unauthorized" xml:space="preserve">
+    <value>Unauthorized access</value>
+  </data>
+  <data name="IndividualUserCanNotInvite" xml:space="preserve">
+    <value>Individual users cannot send invitations</value>
+  </data>
+  <data name="PhoneNumberBlockedUntilTime" xml:space="preserve">
+    <value>Your phone number is blocked until {0}</value>
+  </data>
+  <data name="TryAfterTime" xml:space="preserve">
+    <value>Please try again after {0}</value>
+  </data>
+  <data name="InvalidOtpCode" xml:space="preserve">
+    <value>Invalid verification code</value>
+  </data>
+  <data name="InvitationContentByUserIdContent" xml:space="preserve">
+    <value>{0} has invited you to join</value>
+  </data>
+  <data name="InvitationContentByPhoneNumber" xml:space="preserve">
+    <value>{0} has invited you to join their team on Maydon.rent. Register at https://admin-test.maydon.tech/ to accept the invitation.</value>
+  </data>
+  <data name="Storage_UploadFailed" xml:space="preserve">
+    <value>Failed to upload file to storage</value>
+  </data>
+  <data name="Storage_DownloadFailed" xml:space="preserve">
+    <value>Failed to download file from storage</value>
+  </data>
+  <data name="Storage_DeleteFailed" xml:space="preserve">
+    <value>Failed to delete file from storage</value>
+  </data>
+  <data name="Storage_ConnectionError" xml:space="preserve">
+    <value>Unable to connect to storage service</value>
+  </data>
+  <data name="MinioApi_UploadFailed" xml:space="preserve">
+    <value>Failed to upload file via MinIO API</value>
+  </data>
+  <data name="MinioApi_DeleteFailed" xml:space="preserve">
+    <value>Failed to delete file via MinIO API</value>
+  </data>
+  <data name="MinioApi_ConnectionError" xml:space="preserve">
+    <value>Unable to connect to MinIO API service</value>
+  </data>
+  <data name="MinioApi_InvalidResponse" xml:space="preserve">
+    <value>Invalid response received from MinIO API</value>
+  </data>
+  <data name="RegistrationCodeContent" xml:space="preserve">
+    <value>Confirmation code for registration in the Maydon.rent system {0}</value>
+  </data>
+  <data name="RestorePasswordContent" xml:space="preserve">
+    <value>Confirmation code for password reset in the Maydon.rent system {0}</value>
+  </data>
+  <data name="ContractDebtContent" xml:space="preserve">
+    <value>According to Contract {0} dated {1}, there is an outstanding debt of {2} sums. We kindly ask you to settle the debt</value>
+  </data>
+  <data name="ContractNewTermContent" xml:space="preserve">
+    <value>Dear Client, We propose to renew Contract {0} for a new term. We would be pleased to continue our cooperation</value>
+  </data>
+  <data name="ContractExpiredContent" xml:space="preserve">
+    <value>Dear Customer, we inform you that Contract Number {0} will be terminated soon</value>
+  </data>
+  <data name="OnlyIndividualsCanBind" xml:space="preserve">
+    <value>Only Individuals Can Bind</value>
+  </data>
+  <data name="UserStateTimeIsExpired" xml:space="preserve">
+    <value>User state timeIs expired</value>
+  </data>
+  <data name="InvalidUserValue" xml:space="preserve">
+    <value>Invalid user value</value>
+  </data>
+  <data name="OwnerCanNotMakeRequestToOwnListing" xml:space="preserve">
+    <value>You cannot make a request to your own listing</value>
+  </data>
+  <data name="InactiveListingCannotAcceptRequests" xml:space="preserve">
+    <value>Inactive listing cannot accept requests</value>
+  </data>
+  <data name="ListingRequestWasAcceptedByOwner" xml:space="preserve">
+    <value>This request has already been accepted by the owner</value>
+  </data>
+  <data name="ListingRequestAlreadyCancelled" xml:space="preserve">
+    <value>This request has already been cancelled</value>
+  </data>
+  <data name="ListingRequestAlreadyRejected" xml:space="preserve">
+    <value>This request has already been rejected</value>
+  </data>
+  <data name="WasAcceptedByModerator" xml:space="preserve">
+    <value>This item was already accepted by the moderator</value>
+  </data>
+  <data name="WasCancelledByUser" xml:space="preserve">
+    <value>This item was cancelled by the user</value>
+  </data>
+  <data name="WasRejectedByModerator" xml:space="preserve">
+    <value>This item was rejected by the moderator</value>
+  </data>
+  <data name="WasBlockedByModerator" xml:space="preserve">
+    <value>This item was blocked by the moderator</value>
+  </data>
+  <!-- Identity Module - User -->
+  <data name="User_AlreadyExists" xml:space="preserve">
+    <value>A user with this phone number already exists</value>
+  </data>
+  <data name="User_InvalidPhoneNumber" xml:space="preserve">
+    <value>The phone number format is invalid</value>
+  </data>
+  <data name="User_InvalidPassword" xml:space="preserve">
+    <value>The password does not meet the requirements</value>
+  </data>
+  <data name="User_AccountNotActive" xml:space="preserve">
+    <value>Your account is not active</value>
+  </data>
+  <!-- Identity Module - Role -->
+  <data name="Role_NotFound" xml:space="preserve">
+    <value>The specified role was not found</value>
+  </data>
+  <data name="Role_AlreadyExists" xml:space="preserve">
+    <value>A role with this name already exists</value>
+  </data>
+  <data name="Role_CannotDelete" xml:space="preserve">
+    <value>This role cannot be deleted as it is in use</value>
+  </data>
+  <!-- Identity Module - Permission -->
+  <data name="Permission_NotFound" xml:space="preserve">
+    <value>One or more specified permissions were not found</value>
+  </data>
+  <!-- Identity Module - Company -->
+  <data name="Company_NotFound" xml:space="preserve">
+    <value>Company not found</value>
+  </data>
+  <data name="Company_AlreadyExists" xml:space="preserve">
+    <value>A company with this TIN already exists</value>
+  </data>
+  <data name="Company_InvalidTin" xml:space="preserve">
+    <value>Invalid company TIN format</value>
+  </data>
+  <!-- Identity Module - Account -->
+  <data name="Account_NotFound" xml:space="preserve">
+    <value>Account not found</value>
+  </data>
+  <data name="Account_AlreadyExists" xml:space="preserve">
+    <value>You already have an account of this type</value>
+  </data>
+  <data name="Account_InvalidKey" xml:space="preserve">
+    <value>Invalid account switch key</value>
+  </data>
+  <data name="Account_CannotDeactivateOwn" xml:space="preserve">
+    <value>You cannot deactivate your own account</value>
+  </data>
+  <!-- Identity Module - Invitation -->
+  <data name="Invitation_NotFound" xml:space="preserve">
+    <value>Invitation not found or has expired</value>
+  </data>
+  <data name="Invitation_AlreadyAccepted" xml:space="preserve">
+    <value>This invitation has already been accepted</value>
+  </data>
+  <data name="Invitation_AlreadyCancelled" xml:space="preserve">
+    <value>This invitation has already been cancelled</value>
+  </data>
+  <data name="Invitation_AlreadyRejected" xml:space="preserve">
+    <value>This invitation has already been rejected</value>
+  </data>
+  <data name="Invitation_Expired" xml:space="preserve">
+    <value>This invitation has expired</value>
+  </data>
+  <data name="Invitation_NoPermission" xml:space="preserve">
+    <value>You do not have permission to manage this invitation</value>
+  </data>
+  <!-- Identity Module - OTP Content -->
+  <data name="OtpContent_NotFound" xml:space="preserve">
+    <value>OTP template not found for this type</value>
+  </data>
+  <data name="OtpContent_AlreadyExists" xml:space="preserve">
+    <value>An OTP template for this type already exists</value>
+  </data>
+  <!-- Identity Module - Bank Property -->
+  <data name="BankProperty_NotFound" xml:space="preserve">
+    <value>Bank account details not found</value>
+  </data>
+  <data name="BankProperty_AlreadyExists" xml:space="preserve">
+    <value>This bank account number is already registered</value>
+  </data>
+  <data name="BankProperty_InvalidMfo" xml:space="preserve">
+    <value>Invalid bank MFO code</value>
+  </data>
+  <data name="BankProperty_InvalidAccountNumber" xml:space="preserve">
+    <value>Invalid bank account number format</value>
+  </data>
+  <!-- Identity Module - RefreshToken -->
+  <data name="RefreshToken_Invalid" xml:space="preserve">
+    <value>Invalid or expired refresh token</value>
+  </data>
+  <data name="RefreshToken_Expired" xml:space="preserve">
+    <value>Your session has expired. Please log in again</value>
+  </data>
+  <!-- Identity Module - Image/Logo -->
+  <data name="Logo_NotFound" xml:space="preserve">
+    <value>The specified image was not found</value>
+  </data>
+  <!-- Identity Module - EImzo/OneId -->
+  <data name="EImzo_InvalidSignature" xml:space="preserve">
+    <value>Invalid electronic signature</value>
+  </data>
+  <data name="EImzo_CertificateExpired" xml:space="preserve">
+    <value>Your electronic certificate has expired</value>
+  </data>
+  <data name="EImzo_AlreadyBound" xml:space="preserve">
+    <value>This electronic signature is already linked to another account</value>
+  </data>
+  <data name="OneId_InvalidCode" xml:space="preserve">
+    <value>Invalid OneID authorization code</value>
+  </data>
+  <data name="OneId_AlreadyRegistered" xml:space="preserve">
+    <value>User with this PINFL is already registered</value>
+  </data>
+  <data name="EImzo_LoginNotFound" xml:space="preserve">
+    <value>No account found with this electronic signature</value>
+  </data>
+  <data name="EImzo_AuthFailed" xml:space="preserve">
+    <value>EImzo authentication failed</value>
+  </data>
+  <data name="EImzo_ServiceUnavailable" xml:space="preserve">
+    <value>EImzo service is unavailable</value>
+  </data>
+  <!-- Identity Module - UserState -->
+  <data name="UserState_Invalid" xml:space="preserve">
+    <value>Invalid or expired verification session</value>
+  </data>
+  <!-- Identity Module - OTP -->
+  <data name="Otp_ExpiredOrInvalid" xml:space="preserve">
+    <value>Verification code has expired or is invalid</value>
+  </data>
+  <!-- Building Module - Listing -->
+  <data name="Listing_NotFound" xml:space="preserve">
+    <value>Listing not found</value>
+  </data>
+  <data name="Listing_Inactive" xml:space="preserve">
+    <value>This listing is currently inactive</value>
+  </data>
+  <data name="Listing_InvalidCategories" xml:space="preserve">
+    <value>Invalid categories provided</value>
+  </data>
+  <data name="Listing_InvalidRealEstates" xml:space="preserve">
+    <value>Invalid real estate units provided</value>
+  </data>
+  <!-- Building Module - ListingRequest -->
+  <data name="ListingRequest_NotFound" xml:space="preserve">
+    <value>Listing request not found</value>
+  </data>
+  <data name="ListingRequest_NoPermission" xml:space="preserve">
+    <value>You do not have permission to manage this request</value>
+  </data>
+  <!-- Building Module - Complex -->
+  <data name="Complex_NotFound" xml:space="preserve">
+    <value>Residential complex not found</value>
+  </data>
+  <data name="Complex_AlreadyExists" xml:space="preserve">
+    <value>A complex with this name already exists</value>
+  </data>
+  <!-- Building Module - Building -->
+  <data name="Building_NotFound" xml:space="preserve">
+    <value>Building not found</value>
+  </data>
+  <data name="Building_AlreadyExists" xml:space="preserve">
+    <value>A building with this number already exists in this complex</value>
+  </data>
+  <!-- Building Module - Floor -->
+  <data name="Floor_NotFound" xml:space="preserve">
+    <value>Floor not found</value>
+  </data>
+  <data name="Floor_AlreadyExists" xml:space="preserve">
+    <value>This floor number already exists in the building</value>
+  </data>
+  <data name="Floor_CannotBelongToBoth" xml:space="preserve">
+    <value>A floor cannot belong to both a building and a real estate</value>
+  </data>
+  <data name="Floor_MustHaveParent" xml:space="preserve">
+    <value>A floor must belong to either a building or a real estate</value>
+  </data>
+  <!-- Building Module - Room/RealEstate -->
+  <data name="RealEstate_NotFound" xml:space="preserve">
+    <value>Property unit not found</value>
+  </data>
+  <data name="RealEstate_NoAccess" xml:space="preserve">
+    <value>You do not have access to this property</value>
+  </data>
+  <data name="RealEstateUnit_NotFound" xml:space="preserve">
+    <value>Property unit room not found</value>
+  </data>
+  <!-- Building Module - Category -->
+  <data name="Category_NotFound" xml:space="preserve">
+    <value>Category not found</value>
+  </data>
+  <data name="Category_AlreadyExists" xml:space="preserve">
+    <value>A category with this name already exists</value>
+  </data>
+  <!-- Building Module - Amenity -->
+  <data name="Amenity_NotFound" xml:space="preserve">
+    <value>Amenity not found</value>
+  </data>
+  <data name="AmenityCategory_NotFound" xml:space="preserve">
+    <value>Amenity category not found</value>
+  </data>
+  <!-- Building Module - Renovation -->
+  <data name="Renovation_NotFound" xml:space="preserve">
+    <value>Renovation type not found</value>
+  </data>
+  <!-- Building Module - Wishlist -->
+  <data name="Wishlist_NotFound" xml:space="preserve">
+    <value>Listing not found in your wishlist</value>
+  </data>
+  <data name="Wishlist_AlreadyExists" xml:space="preserve">
+    <value>This listing is already in your wishlist</value>
+  </data>
+  <!-- Building Module - MeterType -->
+  <data name="MeterType_NotFound" xml:space="preserve">
+    <value>Meter type not found</value>
+  </data>
+  <data name="MeterType_AlreadyExists" xml:space="preserve">
+    <value>A meter type with this name already exists</value>
+  </data>
+  <!-- Building Module - MeterTariff -->
+  <data name="MeterTariff_NotFound" xml:space="preserve">
+    <value>Meter tariff not found</value>
+  </data>
+  <data name="MeterTariff_InvalidMeterType" xml:space="preserve">
+    <value>Invalid meter type specified for the tariff</value>
+  </data>
+  <!-- Building Module - RealEstateType -->
+  <data name="RealEstateType_NotFound" xml:space="preserve">
+    <value>Real estate type not found</value>
+  </data>
+  <data name="RealEstateType_AlreadyExists" xml:space="preserve">
+    <value>A real estate type with this name already exists</value>
+  </data>
+  <data name="RealEstateType_InvalidIcon" xml:space="preserve">
+    <value>Invalid icon file for the real estate type</value>
+  </data>
+  <!-- Building Module - RoomType -->
+  <data name="RoomType_NotFound" xml:space="preserve">
+    <value>Room type not found</value>
+  </data>
+  <data name="RoomType_AlreadyExists" xml:space="preserve">
+    <value>A room type with this name already exists</value>
+  </data>
+  <!-- Building Module - Room -->
+  <data name="Room_NotFound" xml:space="preserve">
+    <value>Room not found</value>
+  </data>
+  <!-- Building Module - Floor -->
+  <data name="Floor_InvalidPlan" xml:space="preserve">
+    <value>Invalid floor plan file</value>
+  </data>
+  <!-- Common Module - Region -->
+  <data name="Region_NotFound" xml:space="preserve">
+    <value>Region not found</value>
+  </data>
+  <data name="Region_AlreadyExists" xml:space="preserve">
+    <value>A region with this name already exists</value>
+  </data>
+  <!-- Common Module - District -->
+  <data name="District_NotFound" xml:space="preserve">
+    <value>District not found</value>
+  </data>
+  <data name="District_InvalidRegion" xml:space="preserve">
+    <value>The specified region does not exist</value>
+  </data>
+  <!-- Common Module - Language -->
+  <data name="Language_NotFound" xml:space="preserve">
+    <value>Language not found</value>
+  </data>
+  <data name="Language_AlreadyExists" xml:space="preserve">
+    <value>A language with this code already exists</value>
+  </data>
+  <!-- Common Module - Currency -->
+  <data name="Currency_NotFound" xml:space="preserve">
+    <value>Currency not found</value>
+  </data>
+  <!-- Common Module - Bank -->
+  <data name="Bank_NotFound" xml:space="preserve">
+    <value>Bank not found</value>
+  </data>
+  <data name="Bank_AlreadyExists" xml:space="preserve">
+    <value>A bank with this MFO code already exists</value>
+  </data>
+  <!-- Document Module -->
+  <data name="Document_NotFound" xml:space="preserve">
+    <value>Document not found</value>
+  </data>
+  <data name="Document_InvalidStatus" xml:space="preserve">
+    <value>Document status must be {0}, current status is {1}</value>
+  </data>
+  <data name="Document_NotExported" xml:space="preserve">
+    <value>Document has not been exported to {0}</value>
+  </data>
+  <data name="Document_ExportNotCompleted" xml:space="preserve">
+    <value>Export to {0} not completed, current status: {1}</value>
+  </data>
+  <!-- Document Module - Contract -->
+  <data name="Contract_Notfound" xml:space="preserve">
+    <value>Contract not found</value>
+  </data>
+  <data name="Contract_InvalidParty" xml:space="preserve">
+    <value>Signing party must be 'owner' or 'client'</value>
+  </data>
+  <data name="Contract_NoDidoxState" xml:space="preserve">
+    <value>Contract has no Didox integration state or external ID</value>
+  </data>
+  <data name="Contract_PdfRenderFailed" xml:space="preserve">
+    <value>Failed to generate contract PDF</value>
+  </data>
+  <!-- Document Module - Contract Template -->
+  <data name="Template_NotFound" xml:space="preserve">
+    <value>Contract template not found</value>
+  </data>
+  <data name="Template_InUse" xml:space="preserve">
+    <value>Template is currently in use and cannot be deleted</value>
+  </data>
+  <data name="ContractTemplate_InvalidBlocks" xml:space="preserve">
+    <value>Invalid blocks in template body: {0}</value>
+  </data>
+  <data name="ContractTemplate_InvalidTheme" xml:space="preserve">
+    <value>Invalid theme configuration: {0}</value>
+  </data>
+  <data name="ContractTemplate_LanguageNotFound" xml:space="preserve">
+    <value>No blocks found for language '{0}'</value>
+  </data>
+  <data name="ContractTemplate_InvalidManualValues" xml:space="preserve">
+    <value>Manual values must be a valid JSON object</value>
+  </data>
+  <data name="ContractTemplate_PdfRenderFailed" xml:space="preserve">
+    <value>Failed to generate PDF preview</value>
+  </data>
+  <!-- Document Module - Participant -->
+  <data name="Participant_NotFound" xml:space="preserve">
+    <value>Participant not found</value>
+  </data>
+  <data name="Participant_AlreadyExists" xml:space="preserve">
+    <value>Participant already exists for this contract</value>
+  </data>
+  <data name="Owner_NotFound" xml:space="preserve">
+    <value>Owner not found</value>
+  </data>
+  <!-- Document Module - Attachment -->
+  <data name="Attachment_TooLarge" xml:space="preserve">
+    <value>File size exceeds maximum of {0} MB</value>
+  </data>
+  <data name="Attachment_InvalidType" xml:space="preserve">
+    <value>Allowed file types: PDF, PNG, JPG, DOCX</value>
+  </data>
+  <data name="Attachment_LimitExceeded" xml:space="preserve">
+    <value>Maximum of {0} attachments per contract reached</value>
+  </data>
+  <data name="Attachment_UploadFailed" xml:space="preserve">
+    <value>Failed to upload attachment to storage</value>
+  </data>
+  <!-- Document Module - Lease -->
+  <data name="Lease_NotFound" xml:space="preserve">
+    <value>Lease not found</value>
+  </data>
+  <!-- Document Module - Resource (generic) -->
+  <data name="Resource_NotFound" xml:space="preserve">
+    <value>{0} not found</value>
+  </data>
+  <data name="Resource_Exists" xml:space="preserve">
+    <value>{0} already exists</value>
+  </data>
+  <!-- Didox Module -->
+  <data name="Didox_Failed" xml:space="preserve">
+    <value>Didox request failed</value>
+  </data>
+  <data name="Identity_Unauthorized" xml:space="preserve">
+    <value>Unauthorized access</value>
+  </data>
+  <data name="Server_Failure" xml:space="preserve">
+    <value>Internal server error</value>
+  </data>
+  <data name="MaximumLength" xml:space="preserve">
+    <value>Maximum length is {0}</value>
+  </data>
+  <data name="GreaterThanOrEqualTo" xml:space="preserve">
+    <value>Value must be greater than or equal to {0}</value>
+  </data>
+  <data name="LessThanOrEqualTo" xml:space="preserve">
+    <value>Value must be less than or equal to {0}</value>
+  </data>
+  <!-- Audit -->
+  <data name="Audit_SummaryEmpty" xml:space="preserve">
+    <value>Audit summary is empty</value>
+  </data>
+  <data name="Audit_SummaryDeserializationFailed" xml:space="preserve">
+    <value>Failed to deserialize audit summary</value>
+  </data>
+  <data name="User_IsVerified" xml:space="preserve">
+    <value>User is already verified</value>
+  </data>
+</root>

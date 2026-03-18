@@ -1,0 +1,42 @@
+# Hierarchy Page Redesign — Simplified Tabbed Approach
+
+## Problem
+The current hierarchy page uses a **tree sidebar + detail panel** that expands 5 levels (Region → District → Complex → Building → Floor). This is overwhelming for admins who mainly manage Regions and Districts.
+
+## Proposed Design
+
+Replace with a **tabbed CrudPage** using the same pill-tab bar as Property Config:
+
+```
+┌──────────────────────────────────────────────────────────┐
+│  Location Hierarchy                                      │
+│  [Regions] [Districts] [Complexes] [Buildings] [Floors]  │  ← pill tabs
+├──────────────────────────────────────────────────────────┤
+│  Regions                              [+ Add]  🔍        │
+│  ┌────────────────────────────────────────────────┐      │
+│  │  Name              │  Districts  │  Actions    │      │
+│  ├────────────────────┼─────────────┼─────────────┤      │
+│  │  Tashkent          │  12         │  ✏️ 🗑      │      │
+│  │  Samarkand         │  8          │  ✏️ 🗑      │      │
+│  └────────────────────┴─────────────┴─────────────┘      │
+└──────────────────────────────────────────────────────────┘
+```
+
+Districts tab shows a **Region filter dropdown** to scope results.
+
+## Files to Change
+
+### [MODIFY] [HierarchyPage.tsx](file:///c:/Users/user/Maydon/web/admin-panel/src/pages/HierarchyPage.tsx)
+- Complete rewrite: tabbed layout with pill-style tabs (Regions, Districts, Complexes, Buildings, Floors)
+- Each tab = CrudPage with appropriate columns and forms
+- Districts tab includes Region filter dropdown
+- Same pill-tab CSS as PropertyConfigPage
+
+### Files no longer needed (keep but unused)
+- [HierarchyTreeSidebar.tsx](file:///c:/Users/user/Maydon/web/admin-panel/src/components/HierarchyTreeSidebar.tsx) — no longer imported
+- [HierarchyDetailPanel.tsx](file:///c:/Users/user/Maydon/web/admin-panel/src/components/HierarchyDetailPanel.tsx) — no longer imported
+
+## Verification
+- Build passes with 0 errors
+- Each tab loads data and performs CRUD
+- Districts tab filters by Region

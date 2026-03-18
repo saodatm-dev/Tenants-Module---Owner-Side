@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <Compile Remove="Core\Resources\**" />
+    <Compile Remove="WishlistItems\**" />
+    <EmbeddedResource Remove="Core\Resources\**" />
+    <EmbeddedResource Remove="WishlistItems\**" />
+    <None Remove="Core\Resources\**" />
+    <None Remove="WishlistItems\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Core\Abstractions\Data\FileUploadData.cs" />
+    <Compile Remove="Units\Events\UpsertRealEstateUnitDomainEventHandler.cs" />
+    <Compile Remove="Wishlists\Remove\RemoveWishlistDomainEventHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.Domain\Common.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\Core.Application\Core.Application.csproj" />
+    <ProjectReference Include="..\..\Identity\Identity.Domain\Identity.Domain.csproj" />
+    <ProjectReference Include="..\Building.Domain\Building.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MeterReadings\Remove\" />
+  </ItemGroup>
+</Project>

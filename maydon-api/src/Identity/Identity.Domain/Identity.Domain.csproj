@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <Compile Remove="RolePermissions\**" />
+    <EmbeddedResource Remove="RolePermissions\**" />
+    <None Remove="RolePermissions\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Accounts\Events\CreateAccountPreDomainEvent.cs" />
+    <Compile Remove="Users\UserAccount.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Core.Domain\Core.Domain.csproj" />
+  </ItemGroup>
+</Project>

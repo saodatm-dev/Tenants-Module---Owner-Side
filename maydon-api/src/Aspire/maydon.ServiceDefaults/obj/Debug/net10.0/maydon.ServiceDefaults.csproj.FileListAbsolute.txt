@@ -1,0 +1,13 @@
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\bin\Debug\net10.0\maydon.ServiceDefaults.deps.json
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\bin\Debug\net10.0\maydon.ServiceDefaults.dll
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\bin\Debug\net10.0\maydon.ServiceDefaults.pdb
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\obj\Debug\net10.0\maydon.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\obj\Debug\net10.0\maydon.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\obj\Debug\net10.0\maydon.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\obj\Debug\net10.0\maydon.ServiceDefaults.AssemblyInfo.cs
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\obj\Debug\net10.0\maydon.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\obj\Debug\net10.0\maydon.ServiceDefaults.sourcelink.json
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\obj\Debug\net10.0\maydon.ServiceDefaults.dll
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\obj\Debug\net10.0\refint\maydon.ServiceDefaults.dll
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\obj\Debug\net10.0\maydon.ServiceDefaults.pdb
+C:\Users\user\Maydon\web\maydon-api\src\Aspire\maydon.ServiceDefaults\obj\Debug\net10.0\ref\maydon.ServiceDefaults.dll

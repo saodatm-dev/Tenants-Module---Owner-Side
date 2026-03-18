@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+	  <Compile Remove="Database\Configurations\WishlistItemConfiguration.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\Core\Core.Infrastructure\Core.Infrastructure.csproj" />
+		<ProjectReference Include="..\Building.Application\Building.Application.csproj" />
+	</ItemGroup>
+</Project>

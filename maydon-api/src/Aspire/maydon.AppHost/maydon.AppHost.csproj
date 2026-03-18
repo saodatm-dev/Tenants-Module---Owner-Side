@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Sdk Name="Aspire.AppHost.Sdk" Version="9.5.0" />
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<UserSecretsId>62814974-5883-4320-a334-15679c8d239f</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="aspire-manifest.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="appsettings.Development.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aspire.Hosting.AppHost" />
+		<PackageReference Include="CommunityToolkit.Aspire.Hosting.Minio" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Api\Maydon.Administration.Host\Maydon.Administration.Host.csproj" />
+	  <ProjectReference Include="..\..\Api\Maydon.Host\Maydon.Host.csproj" />
+	</ItemGroup>
+
+</Project>

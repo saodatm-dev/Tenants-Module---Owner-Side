@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+	  <Compile Remove="AssemblyReference.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="EntityFrameworkCore.EncryptColumn" />
+	</ItemGroup>
+</Project>

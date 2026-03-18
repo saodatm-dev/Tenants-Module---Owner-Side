@@ -1,0 +1,6075 @@
+[
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Identity.Accounts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/accounts/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Identity.Application.Accounts.Get.GetAccountsResponse, Identity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Accounts"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Amenities\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/amenities/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.Amenities.Get.GetAmenitiesResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Amenities"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Amenities\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/amenities/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Amenities.Create.CreateAmenityCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Amenities"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Amenities\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/amenities/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Amenities.Update.UpdateAmenityCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Amenities"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Amenities\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/amenities/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Amenities"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Amenities\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/amenities/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.Amenities.GetById.GetAmenityByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Amenities"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.AmenityCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/amenity-categories/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.AmenityCategories.Get.GetAmenityCategoriesResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "AmenityCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.AmenityCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/amenity-categories/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.AmenityCategories.Create.CreateAmenityCategoryCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "AmenityCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.AmenityCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/amenity-categories/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.AmenityCategories.Update.UpdateAmenityCategoryCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "AmenityCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.AmenityCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/amenity-categories/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "AmenityCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.AmenityCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/amenity-categories/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.AmenityCategories.GetById.GetAmenityCategoryByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "AmenityCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Identity.Authentication\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/authentication/phone-number",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Identity.Application.Authentication.Login.PhoneNumber.PhoneNumberLoginCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Identity.Application.Authentication.AuthenticationResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Authentication"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Identity.Authentication\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/authentication/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Identity.Application.Authentication.RefreshToken.RefreshTokenCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Identity.Application.Authentication.AuthenticationResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Authentication"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Banks\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/banks/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Common.Application.Banks.Get.GetBanksResponse, Common.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Banks"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Banks\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/banks/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Common.Application.Banks.Create.CreateBankCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Banks"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Banks\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/banks/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Common.Application.Banks.Update.UpdateBankCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Banks"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Banks\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/banks/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Banks"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Banks\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/banks/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.Application.Banks.GetById.GetBankByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Banks"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Buildings\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/buildings/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.Buildings.Get.GetBuildingsResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Buildings"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Buildings\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/buildings/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Buildings.Create.CreateBuildingCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Buildings"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Buildings\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/buildings/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Amenities.Update.UpdateAmenityCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Buildings"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Buildings\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/buildings/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Buildings"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Buildings\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/buildings/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.Buildings.GetById.GetBuildingByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Buildings"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Categories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/categories/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.Categories.Get.GetCategoriesResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Categories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Categories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/categories/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Categories.Create.CreateCategoryCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Categories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Categories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/categories/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Categories.Update.UpdateCategoryCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Categories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Categories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/categories/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Categories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Categories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/categories/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.Categories.GetById.GetCategoryByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Categories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Complexes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/complexes/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "RegionId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "DistrictId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsCommercial",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsLiving",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.Complexes.Get.GetComplexesResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Complexes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Complexes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/complexes/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Complexes.Create.CreateComplexCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Complexes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Complexes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/complexes/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Complexes.Update.UpdateComplexCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Complexes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Complexes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/complexes/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Complexes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Complexes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/complexes/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.Complexes.GetById.GetComplexByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Complexes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.ContractTemplates\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/contract-templates/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Scope",
+        "Type": "System.Nullable\u00601[[Document.Contract.ContractTemplates.Enums.ContractTemplateScope, Document.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.Nullable\u00601[[Document.Contract.ContractTemplates.Enums.ContractTemplateCategory, Document.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Document.Contract.ContractTemplates.Responses.ContractTemplateListResponse, Document.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ContractTemplates"
+    ],
+    "EndpointName": "Admin_GetContractTemplates",
+    "Summary": "List contract templates with optional filters"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.ContractTemplates\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/contract-templates/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Document.Contract.ContractTemplates.Commands.CreateContractTemplateCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Document.Contract.ContractTemplates.Responses.ContractTemplateResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ContractTemplates"
+    ],
+    "EndpointName": "Admin_CreateContractTemplate",
+    "Summary": "Create a new contract template"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.ContractTemplates\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/contract-templates/{id:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Document.Contract.ContractTemplates.Responses.ContractTemplateResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "ContractTemplates"
+    ],
+    "EndpointName": "Admin_GetContractTemplateById",
+    "Summary": "Get a contract template by ID"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.ContractTemplates\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/contract-templates/{id:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Maydon.Administration.Host.Endpoints.Document.UpdateContractTemplateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "ContractTemplates"
+    ],
+    "EndpointName": "Admin_UpdateContractTemplate",
+    "Summary": "Update a contract template (bumps version)"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.ContractTemplates\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_5",
+    "RelativePath": "api/v{version}/contract-templates/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "ContractTemplates"
+    ],
+    "EndpointName": "Admin_DeleteContractTemplate",
+    "Summary": "Soft-delete a contract template"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.ContractTemplates\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/contract-templates/{id:guid}/bodies/{lang}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "lang",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Maydon.Administration.Host.Endpoints.Document.UpdateContractTemplateBodyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "ContractTemplates"
+    ],
+    "EndpointName": "Admin_UpdateContractTemplateBody",
+    "Summary": "Update a single language body"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.ContractTemplates\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_6",
+    "RelativePath": "api/v{version}/contract-templates/{id:guid}/preview",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Maydon.Administration.Host.Endpoints.Document.PreviewPdfRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "ContractTemplates"
+    ],
+    "EndpointName": "Admin_PreviewContractTemplatePdf",
+    "Summary": "Generate a PDF preview without saving"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.ContractTemplates\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_7",
+    "RelativePath": "api/v{version}/contract-templates/placeholders",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Document.Contract.ContractTemplates.Responses.PlaceholderCatalogResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ContractTemplates"
+    ],
+    "EndpointName": "Admin_GetPlaceholderCatalog",
+    "Summary": "Get the placeholder catalog for the block editor"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.Contracts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/contracts/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "leaseId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "fromDate",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Document.Contract.Contracts.Responses.PagedContractResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Contracts"
+    ],
+    "EndpointName": "Admin_ListContracts",
+    "Summary": "Get paginated contract list with filters"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.Contracts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/contracts/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Maydon.Administration.Host.Endpoints.Document.CreateContractRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Document.Contract.Contracts.Responses.ContractResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Contracts"
+    ],
+    "EndpointName": "Admin_CreateContract",
+    "Summary": "Create a new contract (Draft)"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.Contracts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/contracts/{id:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Document.Contract.Contracts.Responses.ContractResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Contracts"
+    ],
+    "EndpointName": "Admin_GetContractById",
+    "Summary": "Get a contract by ID"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.Contracts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_9",
+    "RelativePath": "api/v{version}/contracts/{id:guid}/attachments",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": true
+      },
+      {
+        "Name": "documentType",
+        "Type": "System.Nullable\u00601[[Document.Contract.Contracts.Enums.AttachmentDocumentType, Document.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 201
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Contracts"
+    ],
+    "EndpointName": "Admin_UploadContractAttachment",
+    "Summary": "Upload an attachment to a contract"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.Contracts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_10",
+    "RelativePath": "api/v{version}/contracts/{id:guid}/attachments",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[Document.Contract.Contracts.Responses.ContractAttachmentResponse, Document.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Contracts"
+    ],
+    "EndpointName": "Admin_ListContractAttachments",
+    "Summary": "List contract attachments"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.Contracts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/contracts/{id:guid}/body",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Maydon.Administration.Host.Endpoints.Document.UpdateContractBodyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Contracts"
+    ],
+    "EndpointName": "Admin_UpdateContractBody",
+    "Summary": "Edit contract body (Draft only)"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.Contracts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_6",
+    "RelativePath": "api/v{version}/contracts/{id:guid}/export-didox",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 202
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Contracts"
+    ],
+    "EndpointName": "Admin_ExportContractToDidox",
+    "Summary": "Export contract to Didox (locks editing)"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.Contracts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_8",
+    "RelativePath": "api/v{version}/contracts/{id:guid}/pdf",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Contracts"
+    ],
+    "EndpointName": "Admin_GetContractPdf",
+    "Summary": "Generate and download a PDF for a contract"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.Contracts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/contracts/{id:guid}/regenerate",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Maydon.Administration.Host.Endpoints.Document.RegenerateContractRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Contracts"
+    ],
+    "EndpointName": "Admin_RegenerateContract",
+    "Summary": "Regenerate contract body (Draft only)"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.Contracts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_5",
+    "RelativePath": "api/v{version}/contracts/{id:guid}/reject",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Maydon.Administration.Host.Endpoints.Document.RejectContractRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Contracts"
+    ],
+    "EndpointName": "Admin_RejectContract",
+    "Summary": "Reject a contract"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.Contracts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_7",
+    "RelativePath": "api/v{version}/contracts/{id:guid}/sync-from-didox",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Contracts"
+    ],
+    "EndpointName": "Admin_SyncContractFromDidox",
+    "Summary": "Sync contract status from Didox"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Document.Contracts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_11",
+    "RelativePath": "api/v{version}/contracts/prefill",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "templateId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "leaseId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "lang",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Document.Contract.Contracts.Responses.PrefillContractResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Contracts"
+    ],
+    "EndpointName": "Admin_PrefillContract",
+    "Summary": "Pre-fill contract template with lease and company data"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Currencies\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/currencies/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Common.Application.Currencies.Get.GetCurrenciesResponse, Common.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Currencies"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Currencies\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/currencies/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Common.Application.Currencies.Create.CreateCurrencyCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Currencies"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Currencies\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/currencies/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Common.Application.Currencies.Update.UpdateCurrencyCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Currencies"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Currencies\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/currencies/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Currencies"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Currencies\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/currencies/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.Application.Currencies.GetById.GetCurrencyByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Currencies"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Didox.DidoxAccounts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/didox-accounts/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OwnerId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Didox.Application.Contracts.DidoxAccounts.Responses.DidoxAccountResponse, Didox.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "DidoxAccounts"
+    ],
+    "EndpointName": "Admin_GetDidoxAccounts",
+    "Summary": "Get all Didox accounts"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Didox.DidoxAccounts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/didox-accounts/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Didox.Application.Contracts.DidoxAccounts.Commands.CreateDidoxAccountCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Didox.Application.Contracts.DidoxAccounts.Responses.DidoxAccountResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "DidoxAccounts"
+    ],
+    "EndpointName": "Admin_CreateDidoxAccount",
+    "Summary": "Create a new Didox account"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Didox.DidoxAccounts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/didox-accounts/{id:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Didox.Application.Contracts.DidoxAccounts.Responses.DidoxAccountResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "DidoxAccounts"
+    ],
+    "EndpointName": "Admin_GetDidoxAccountById",
+    "Summary": "Get Didox account by ID"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Didox.DidoxAccounts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/didox-accounts/{id:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Maydon.Administration.Host.Endpoints.Didox.UpdateDidoxAccountRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "DidoxAccounts"
+    ],
+    "EndpointName": "Admin_UpdateDidoxAccount",
+    "Summary": "Update a Didox account"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Didox.DidoxAccounts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/didox-accounts/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "DidoxAccounts"
+    ],
+    "EndpointName": "Admin_DeleteDidoxAccount",
+    "Summary": "Delete a Didox account"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Didox.DidoxAuth\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/didox-auth/register",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Didox.Application.Contracts.DidoxClient.Contracts.Registration.RegistrationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Didox.Application.Contracts.DidoxAccounts.Responses.DidoxAccountResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "DidoxAuth"
+    ],
+    "EndpointName": "Admin_DidoxRegistration",
+    "Summary": "Registration into Didox system"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Didox.DidoxDocuments\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/didox-documents/{id}/html",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "DidoxDocuments"
+    ],
+    "EndpointName": "Admin_GetDocumentHtml",
+    "Summary": "Retrieve document in HTML format"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Didox.DidoxDocuments\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/didox-documents/{id}/json",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "DidoxDocuments"
+    ],
+    "EndpointName": "Admin_GetDocumentJson",
+    "Summary": "Retrieve raw document JSON"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Didox.DidoxDocuments\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/didox-documents/{id}/pdf",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "DidoxDocuments"
+    ],
+    "EndpointName": "Admin_GetDocumentPdf",
+    "Summary": "Retrieve document in PDF format"
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Districts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/districts/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegionId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Common.Application.Districts.Get.GetDistrictsResponse, Common.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Districts"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Districts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/districts/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Common.Application.Districts.Create.CreateDistrictCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Districts"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Districts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/districts/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Common.Application.Districts.Update.UpdateDistrictCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Districts"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Districts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/districts/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Districts"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Districts\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/districts/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.Application.Districts.GetById.GetDistrictByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Districts"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Files\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/files/antiforgery",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Files"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Files\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/files/download-url",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Files"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Files\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/files/download/{key}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Files"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Files\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/files/upload",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Files"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Files\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/files/upload-bulk",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "files",
+        "Type": "Microsoft.AspNetCore.Http.IFormFileCollection",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Files"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Floors\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/floors/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "BuildingId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "RealEstateId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.Floors.Get.GetFloorsResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Floors"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Floors\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/floors/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Floors.Create.CreateFloorCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Floors"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Floors\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/floors/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Floors.Update.UpdateFloorCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Floors"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Floors\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/floors/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Floors"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Floors\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/floors/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.Floors.GetById.GetFloorByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Floors"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.LandCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/land-categories/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.LandCategories.Get.GetLandCategoriesResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "LandCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.LandCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/land-categories/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.LandCategories.Create.CreateLandCategoryCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "LandCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.LandCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/land-categories/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.LandCategories.Update.UpdateLandCategoryCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "LandCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.LandCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/land-categories/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "LandCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.LandCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/land-categories/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.LandCategories.GetById.GetLandCategoryByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "LandCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Languages\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/languages/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Common.Application.Languages.Get.GetLanguagesResponse, Common.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Languages"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Languages\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/languages/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Common.Application.Languages.Create.CreateLanguageCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Languages"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Languages\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/languages/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Common.Application.Languages.Update.UpdateLanguageCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Languages"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Languages\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/languages/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Languages"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Languages\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/languages/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.Application.Languages.GetById.GetLanguageByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Languages"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.ListingCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/listing-categories/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.ListingCategories.Get.GetListingCategoriesResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ListingCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.ListingCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/listing-categories/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.ListingCategories.Create.CreateListingCategoryCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ListingCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.ListingCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/listing-categories/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.ListingCategories.Update.UpdateListingCategoryCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ListingCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.ListingCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/listing-categories/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ListingCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.ListingCategories\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/listing-categories/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.ListingCategories.GetById.GetListingCategoriesByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ListingCategories"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.MeterTariffs\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/meter-tariffs/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Type",
+        "Type": "System.Nullable\u00601[[Building.Domain.MeterTariffs.MeterTariffType, Building.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActual",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "From",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "To",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.MeterTariffs.Get.GetMeterTariffsResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "MeterTariffs"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.MeterTariffs\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/meter-tariffs/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.MeterTariffs.Create.CreateMeterTariffCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "MeterTariffs"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.MeterTariffs\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/meter-tariffs/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.MeterTariffs.Update.UpdateMeterTariffCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "MeterTariffs"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.MeterTariffs\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/meter-tariffs/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "MeterTariffs"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.MeterTariffs\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/meter-tariffs/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.MeterTariffs.GetById.GetMeterTariffByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "MeterTariffs"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.MeterTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/meter-types/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Building.Application.MeterTypes.Get.GetMeterTypesResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "MeterTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.MeterTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/meter-types/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.MeterTypes.Create.CreateMeterTypeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "MeterTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.MeterTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/meter-types/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.MeterTypes.Update.UpdateMeterTypeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "MeterTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.MeterTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/meter-types/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "MeterTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.MeterTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/meter-types/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.MeterTypes.GetById.GetMeterTypeByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "MeterTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/moderations/listings",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ModerationStatus",
+        "Type": "System.Nullable\u00601[[Building.Domain.Statuses.ModerationStatus, Building.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.Moderations.Listings.Get.GetModerationListingsResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/moderations/listings/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.Moderations.Listings.GetById.GetModerationListingByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/moderations/listings/accept",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Moderations.Listings.Accept.AcceptModerationListingCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/moderations/listings/block",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Moderations.Listings.Block.BlockModerationListingCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/moderations/listings/reject",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Moderations.Listings.Reject.RejectModerationListingCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_5",
+    "RelativePath": "api/v{version}/moderations/realestates",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ModerationStatus",
+        "Type": "System.Nullable\u00601[[Building.Domain.Statuses.ModerationStatus, Building.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.Moderations.RealEstates.Get.GetModerationRealEstatesResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_6",
+    "RelativePath": "api/v{version}/moderations/realestates/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.Moderations.RealEstates.GetById.GetModerationRealEstateByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_7",
+    "RelativePath": "api/v{version}/moderations/realestates/accept",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Moderations.RealEstates.Accept.AcceptModerationRealEstateCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_9",
+    "RelativePath": "api/v{version}/moderations/realestates/block",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Moderations.RealEstates.Block.BlockModerationRealEstateCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_8",
+    "RelativePath": "api/v{version}/moderations/realestates/reject",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Moderations.RealEstates.Reject.RejectModerationRealEstateCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_10",
+    "RelativePath": "api/v{version}/moderations/realestateunits",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ModerationStatus",
+        "Type": "System.Nullable\u00601[[Building.Domain.Statuses.ModerationStatus, Building.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.Moderations.Get.GetModerationRealEstateUnitsResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_11",
+    "RelativePath": "api/v{version}/moderations/realestateunits/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.Moderations.RealEstateUnits.GetById.GetModerationRealEstateUnitByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_12",
+    "RelativePath": "api/v{version}/moderations/realestateunits/accept",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Moderations.RealEstateUnits.Accept.AcceptModerationRealEstateUnitCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_14",
+    "RelativePath": "api/v{version}/moderations/realestateunits/block",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Moderations.RealEstateUnits.Block.BlockModerationRealEstateUnitCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Moderations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_13",
+    "RelativePath": "api/v{version}/moderations/realestateunits/reject",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Moderations.RealEstateUnits.Reject.RejectModerationRealEstateUnitCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Moderations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.ProductionTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/production-types/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.ProductionTypes.Get.GetProductionTypesResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ProductionTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.ProductionTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/production-types/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.ProductionTypes.Create.CreateProductionTypeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ProductionTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.ProductionTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/production-types/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.ProductionTypes.Update.UpdateProductionTypeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ProductionTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.ProductionTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/production-types/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ProductionTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.ProductionTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/production-types/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.ProductionTypes.GetById.GetProductionTypeByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ProductionTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RealEstateTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/real-estate-types/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Building.Application.RealEstateTypes.Get.GetRealEstateTypesResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RealEstateTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RealEstateTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/real-estate-types/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.RealEstateTypes.Create.CreateRealEstateTypeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RealEstateTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RealEstateTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/real-estate-types/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.RealEstateTypes.Update.UpdateRealEstateTypeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RealEstateTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RealEstateTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/real-estate-types/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RealEstateTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RealEstateTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/real-estate-types/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.RealEstateTypes.GetById.GetRealEstateTypeByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RealEstateTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Regions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/regions/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Common.Application.Regions.Get.GetRegionsResponse, Common.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Regions"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Regions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/regions/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Common.Application.Regions.Create.CreateRegionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Regions"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Regions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/regions/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Common.Application.Regions.Update.UpdateRegionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Regions"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Regions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/regions/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Regions"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Common.Regions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/regions/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.Application.Regions.GetById.GetRegionByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Regions"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Renovations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/renovations/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.Renovations.Get.GetRenovationsResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Renovations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Renovations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/renovations/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Renovations.Create.CreateRenovationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Renovations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Renovations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/renovations/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.Renovations.Update.UpdateRenovationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Renovations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Renovations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/renovations/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Renovations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.Renovations\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/renovations/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.Renovations.GetById.GetRenovationByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Renovations"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RentalPurposes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/rental-purposes/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.RentalPurposes.Get.GetRentalPurposesResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RentalPurposes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RentalPurposes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/rental-purposes/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.RentalPurposes.Create.CreateRentalPurposeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RentalPurposes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RentalPurposes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/rental-purposes/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.RentalPurposes.Update.UpdateRentalPurposeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RentalPurposes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RentalPurposes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/rental-purposes/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RentalPurposes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RoomTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/room-types/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Building.Application.RoomTypes.Get.GetRoomTypesResponse, Building.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RoomTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RoomTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/room-types/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.RoomTypes.Create.CreateRoomTypeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RoomTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RoomTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_3",
+    "RelativePath": "api/v{version}/room-types/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Building.Application.RoomTypes.Update.UpdateRoomTypeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RoomTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RoomTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_4",
+    "RelativePath": "api/v{version}/room-types/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RoomTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Building.RoomTypes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/room-types/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Building.Application.RoomTypes.GetById.GetRoomTypeByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "RoomTypes"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Identity.Users\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_0",
+    "RelativePath": "api/v{version}/users/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Application.Pagination.PagedList\u00601[[Identity.Application.Users.GetAll.GetAllUsersResponse, Identity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Users"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Identity.Users\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_1",
+    "RelativePath": "api/v{version}/users/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Identity.Application.Users.GetById.GetUserByIdResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Users"
+    ]
+  },
+  {
+    "ContainingType": "Maydon.Administration.Host.Endpoints.Identity.Users\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__2_2",
+    "RelativePath": "api/v{version}/users/profile",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Identity.Application.Users.Profile.ProfileResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Users"
+    ]
+  }
+]

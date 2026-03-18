@@ -1,0 +1,17 @@
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\bin\Debug\net10.0\Building.Domain.deps.json
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\bin\Debug\net10.0\Building.Domain.dll
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\bin\Debug\net10.0\Building.Domain.pdb
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\bin\Debug\net10.0\Core.Domain.dll
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\bin\Debug\net10.0\Core.Domain.pdb
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\obj\Debug\net10.0\Building.Domain.csproj.AssemblyReference.cache
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\obj\Debug\net10.0\Building.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\obj\Debug\net10.0\Building.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\obj\Debug\net10.0\Building.Domain.AssemblyInfo.cs
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\obj\Debug\net10.0\Building.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\obj\Debug\net10.0\EFCoreNpgsqlNetTopologySuite.cs
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\obj\Debug\net10.0\Building.Domain.sourcelink.json
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\obj\Debug\net10.0\Building.F5833E24.Up2Date
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\obj\Debug\net10.0\Building.Domain.dll
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\obj\Debug\net10.0\refint\Building.Domain.dll
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\obj\Debug\net10.0\Building.Domain.pdb
+C:\Users\user\Maydon\web\maydon-api\src\Building\Building.Domain\obj\Debug\net10.0\ref\Building.Domain.dll

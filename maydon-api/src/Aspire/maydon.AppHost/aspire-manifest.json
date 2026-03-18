@@ -1,0 +1,50 @@
+{
+	"$schema": "https://json.schemastore.org/aspire-8.0.json",
+	"resources": {
+		"maydonapi": {
+			"type": "project.v0",
+			"path": "../../Maydon.Host/Maydon.Host.csproj",
+			"env": {
+				"OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EXCEPTION_LOG_ATTRIBUTES": "true",
+				"OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES": "true",
+				"OTEL_DOTNET_EXPERIMENTAL_OTLP_RETRY": "in_memory",
+				"ASPNETCORE_FORWARDEDHEADERS_ENABLED": "true",
+				"HTTP_PORTS": "{maydonapi.bindings.http.targetPort}"
+			},
+			"bindings": {
+				"http": {
+					"scheme": "http",
+					"protocol": "tcp",
+					"transport": "http",
+					"external": true
+				},
+				"https": {
+					"scheme": "https",
+					"protocol": "tcp",
+					"transport": "http",
+					"external": true
+				}
+			}
+		},
+		"vue": {
+			"type": "dockerfile.v0",
+			"path": "../../../web/Dockerfile",
+			"context": "../../../web",
+			"env": {
+				"NODE_ENV": "development",
+				"services__maydonapi__http__0": "{maydonapi.bindings.http.url}",
+				"services__maydonapi__https__0": "{maydonapi.bindings.https.url}",
+				"PORT": "{vue.bindings.http.targetPort}"
+			},
+			"bindings": {
+				"http": {
+					"scheme": "http",
+					"protocol": "tcp",
+					"transport": "http",
+					"targetPort": 8002,
+					"external": true
+				}
+			}
+		}
+	}
+}

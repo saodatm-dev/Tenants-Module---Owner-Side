@@ -1,0 +1,45 @@
+﻿namespace Core.Application.Pagination;
+
+public sealed class PagedList<T>
+{
+	public PagedList(IEnumerable<T> items, int page, int pageSize, int totalCount)
+	{
+		Page = page < PagedList.DefaultPageValue ? PagedList.DefaultPageValue : page / pageSize + 1;
+		PageSize = pageSize;
+		TotalCount = totalCount;
+		Items = items.ToList();
+	}
+
+	/// <summary>
+	/// Gets the current page.
+	/// </summary>
+	public int Page { get; }
+
+	/// <summary>
+	/// Gets the page size. The maximum page size is 100.
+	/// </summary>
+	public int PageSize { get; }
+
+	/// <summary>
+	/// Gets the total number of items.
+	/// </summary>
+	public int TotalCount { get; }
+
+	/// <summary>
+	/// Gets the flag indicating whether the next page exists.
+	/// </summary>
+	public bool HasNextPage => (Page < 1 ? 1 : Page) * PageSize < TotalCount;
+
+	/// <summary>
+	/// Gets the flag indicating whether the previous page exists.
+	/// </summary>
+	public bool HasPreviousPage => Page > 1;
+
+	/// <summary>
+	/// Gets the items.
+	/// </summary>
+	public IReadOnlyCollection<T> Items { get; }
+
+	public static PagedList<T> Empty(int page = PagedList.DefaultPageValue, int pageSize = PagedList.DefaultPageSizeValue) =>
+		new PagedList<T>(Enumerable.Empty<T>(), page < PagedList.DefaultPageValue ? PagedList.DefaultPageValue : page / pageSize + 1, pageSize, 0);
+}

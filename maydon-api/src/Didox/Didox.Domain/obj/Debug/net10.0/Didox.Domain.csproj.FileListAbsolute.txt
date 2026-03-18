@@ -1,0 +1,16 @@
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\bin\Debug\net10.0\Didox.Domain.deps.json
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\bin\Debug\net10.0\Didox.Domain.dll
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\bin\Debug\net10.0\Didox.Domain.pdb
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\bin\Debug\net10.0\Core.Domain.dll
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\bin\Debug\net10.0\Core.Domain.pdb
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\obj\Debug\net10.0\Didox.Domain.csproj.AssemblyReference.cache
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\obj\Debug\net10.0\Didox.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\obj\Debug\net10.0\Didox.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\obj\Debug\net10.0\Didox.Domain.AssemblyInfo.cs
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\obj\Debug\net10.0\Didox.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\obj\Debug\net10.0\Didox.Domain.sourcelink.json
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\obj\Debug\net10.0\Didox.Do.9AAD1BBA.Up2Date
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\obj\Debug\net10.0\Didox.Domain.dll
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\obj\Debug\net10.0\refint\Didox.Domain.dll
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\obj\Debug\net10.0\Didox.Domain.pdb
+C:\Users\user\Maydon\web\maydon-api\src\Didox\Didox.Domain\obj\Debug\net10.0\ref\Didox.Domain.dll

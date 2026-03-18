@@ -1,0 +1,8 @@
+﻿namespace Maydon.Host.Abstractions;
+
+public interface IEndpoint
+{
+	void MapEndpoint(IEndpointRouteBuilder app);
+	string GroupName { get; }
+	string? Route => null;
+}

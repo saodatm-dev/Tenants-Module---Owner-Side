@@ -1,0 +1,72 @@
+<Solution>
+  <Folder Name="/docs/" />
+  <Folder Name="/docs/common/">
+    <File Path="docs/common/Architecture.md" />
+    <File Path="docs/common/ERD.md" />
+    <File Path="docs/common/Flows.md" />
+  </Folder>
+  <Folder Name="/docs/deployment/">
+    <File Path="docs/deployment/deployment-flow.pdf" />
+  </Folder>
+  <Folder Name="/docs/didox/">
+    <File Path="docs/didox/Architecture.md" />
+    <File Path="docs/didox/ERD.md" />
+    <File Path="docs/didox/Flows.md" />
+  </Folder>
+  <Folder Name="/docs/document/">
+    <File Path="docs/document/Architecture.md" />
+    <File Path="docs/document/ERD.md" />
+    <File Path="docs/document/Flows.md" />
+  </Folder>
+  <Folder Name="/docs/identity/">
+    <File Path="docs/identity/Architecture.md" />
+    <File Path="docs/identity/ERD.md" />
+    <File Path="docs/identity/Flows.md" />
+  </Folder>
+  
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Api/">
+    <Project Path="src/Api/Maydon.Administration.Host/Maydon.Administration.Host.csproj" />
+    <Project Path="src/Api/Maydon.Host/Maydon.Host.csproj" />
+  </Folder>
+  <Folder Name="/src/Aspire/">
+    <Project Path="src/Aspire/maydon.AppHost/maydon.AppHost.csproj" Id="541c0cd8-e1ee-4a7a-b1e1-fca37a98731a" />
+    <Project Path="src/Aspire/maydon.ServiceDefaults/maydon.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/src/Core/">
+    <Project Path="src/Core/Core.Application/Core.Application.csproj" Id="47b71a7f-ac0d-4607-a6b4-f6cacc7c98fc" />
+    <Project Path="src/Core/Core.Domain/Core.Domain.csproj" Id="d86d380d-92cc-4a3f-aeb1-54190859decd" />
+    <Project Path="src/Core/Core.Infrastructure/Core.Infrastructure.csproj" Id="58714995-3e1a-46a9-8517-5d1a526332d0" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Building/">
+    <Project Path="src/Building/Building.Application/Building.Application.csproj" />
+    <Project Path="src/Building/Building.Domain/Building.Domain.csproj" Id="4e6c2a73-b837-4d8f-9160-0e724b8faad9" />
+    <Project Path="src/Building/Building.Infrastructure/Building.Infrastructure.csproj" Id="397cd6ed-d2b7-4359-875f-9670888c833f" />
+  </Folder>
+  <Folder Name="/src/Modules/Common/">
+    <Project Path="src/Common/Common.Application/Common.Application.csproj" Id="99a3758d-6562-4fd6-a4f8-7df4d5c6e7f0" />
+    <Project Path="src/Common/Common.Domain/Common.Domain.csproj" Id="d9c6e15b-8b27-481d-a76e-c7153723fa53" />
+    <Project Path="src/Common/Common.Infrastructure/Common.Infrastructure.csproj" Id="794f168f-2ae5-449e-a47d-065ceb91a31d" />
+  </Folder>
+  <Folder Name="/src/Modules/Didox/">
+    <Project Path="src/Didox/Didox.Application/Didox.Application.csproj" />
+    <Project Path="src/Didox/Didox.Domain/Didox.Domain.csproj" />
+    <Project Path="src/Didox/Didox.Infrastructure/Didox.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Document/">
+    <Project Path="src/Document/Document.Contract/Document.Contract.csproj" />
+    <Project Path="src/Document/Document.Domain/Document.Domain.csproj" />
+    <Project Path="src/Document/Document.Application/Document.Application.csproj" />
+    <Project Path="src/Document/Document.Infrastructure/Document.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Identity/Identity.Application/Identity.Application.csproj" Id="97eecc14-edf5-45a7-ac47-360ce9ef384c" />
+    <Project Path="src/Identity/Identity.Domain/Identity.Domain.csproj" Id="77d19430-6fbf-4b29-86c6-b09743b88550" />
+    <Project Path="src/Identity/Identity.Infrastructure/Identity.Infrastructure.csproj" Id="d37d4527-9440-4f03-98f8-b72dcd0c280f" />
+  </Folder>
+</Solution>

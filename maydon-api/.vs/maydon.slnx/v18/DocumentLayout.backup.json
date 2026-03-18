@@ -1,0 +1,1125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Maydon\\web\\maydon-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF36FFA-B56F-1EB0-0B03-646ADAE060D5}|src\\Api\\Maydon.Administration.Host\\Maydon.Administration.Host.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\api\\maydon.administration.host\\endpoints\\building\\files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF36FFA-B56F-1EB0-0B03-646ADAE060D5}|src\\Api\\Maydon.Administration.Host\\Maydon.Administration.Host.csproj|solutionrelative:src\\api\\maydon.administration.host\\endpoints\\building\\files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF36FFA-B56F-1EB0-0B03-646ADAE060D5}|src\\Api\\Maydon.Administration.Host\\Maydon.Administration.Host.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\api\\maydon.administration.host\\permissions\\building\\buildingpermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF36FFA-B56F-1EB0-0B03-646ADAE060D5}|src\\Api\\Maydon.Administration.Host\\Maydon.Administration.Host.csproj|solutionrelative:src\\api\\maydon.administration.host\\permissions\\building\\buildingpermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\complexes\\create\\createcomplexcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\complexes\\create\\createcomplexcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A3758D-6562-4FD6-A4F8-7DF4D5C6E7F0}|src\\Common\\Common.Application\\Common.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\common\\common.application\\regions\\getbyid\\getregionbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99A3758D-6562-4FD6-A4F8-7DF4D5C6E7F0}|src\\Common\\Common.Application\\Common.Application.csproj|solutionrelative:src\\common\\common.application\\regions\\getbyid\\getregionbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A3758D-6562-4FD6-A4F8-7DF4D5C6E7F0}|src\\Common\\Common.Application\\Common.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\common\\common.application\\regions\\getbyid\\getregionbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99A3758D-6562-4FD6-A4F8-7DF4D5C6E7F0}|src\\Common\\Common.Application\\Common.Application.csproj|solutionrelative:src\\common\\common.application\\regions\\getbyid\\getregionbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A3758D-6562-4FD6-A4F8-7DF4D5C6E7F0}|src\\Common\\Common.Application\\Common.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\common\\common.application\\regions\\get\\getregionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99A3758D-6562-4FD6-A4F8-7DF4D5C6E7F0}|src\\Common\\Common.Application\\Common.Application.csproj|solutionrelative:src\\common\\common.application\\regions\\get\\getregionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF36FFA-B56F-1EB0-0B03-646ADAE060D5}|src\\Api\\Maydon.Administration.Host\\Maydon.Administration.Host.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\api\\maydon.administration.host\\endpoints\\common\\regions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF36FFA-B56F-1EB0-0B03-646ADAE060D5}|src\\Api\\Maydon.Administration.Host\\Maydon.Administration.Host.csproj|solutionrelative:src\\api\\maydon.administration.host\\endpoints\\common\\regions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A3758D-6562-4FD6-A4F8-7DF4D5C6E7F0}|src\\Common\\Common.Application\\Common.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\common\\common.application\\regions\\update\\updateregioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99A3758D-6562-4FD6-A4F8-7DF4D5C6E7F0}|src\\Common\\Common.Application\\Common.Application.csproj|solutionrelative:src\\common\\common.application\\regions\\update\\updateregioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A3758D-6562-4FD6-A4F8-7DF4D5C6E7F0}|src\\Common\\Common.Application\\Common.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\common\\common.application\\regions\\create\\createregioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99A3758D-6562-4FD6-A4F8-7DF4D5C6E7F0}|src\\Common\\Common.Application\\Common.Application.csproj|solutionrelative:src\\common\\common.application\\regions\\create\\createregioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF36FFA-B56F-1EB0-0B03-646ADAE060D5}|src\\Api\\Maydon.Administration.Host\\Maydon.Administration.Host.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\api\\maydon.administration.host\\extensions\\localizationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF36FFA-B56F-1EB0-0B03-646ADAE060D5}|src\\Api\\Maydon.Administration.Host\\Maydon.Administration.Host.csproj|solutionrelative:src\\api\\maydon.administration.host\\extensions\\localizationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C6E15B-8B27-481D-A76E-C7153723FA53}|src\\Common\\Common.Domain\\Common.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\common\\common.domain\\regions\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C6E15B-8B27-481D-A76E-C7153723FA53}|src\\Common\\Common.Domain\\Common.Domain.csproj|solutionrelative:src\\common\\common.domain\\regions\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF36FFA-B56F-1EB0-0B03-646ADAE060D5}|src\\Api\\Maydon.Administration.Host\\Maydon.Administration.Host.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\api\\maydon.administration.host\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DF36FFA-B56F-1EB0-0B03-646ADAE060D5}|src\\Api\\Maydon.Administration.Host\\Maydon.Administration.Host.csproj|solutionrelative:src\\api\\maydon.administration.host\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5899B9F-3535-A1D5-6B5F-5610E4D4E021}|src\\Api\\Maydon.Host\\Maydon.Host.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\api\\maydon.host\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E5899B9F-3535-A1D5-6B5F-5610E4D4E021}|src\\Api\\Maydon.Host\\Maydon.Host.csproj|solutionrelative:src\\api\\maydon.host\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EECC14-EDF5-45A7-AC47-360CE9EF384C}|src\\Identity\\Identity.Application\\Identity.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\identity\\identity.application\\authentication\\login\\oneid\\oneidlogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EECC14-EDF5-45A7-AC47-360CE9EF384C}|src\\Identity\\Identity.Application\\Identity.Application.csproj|solutionrelative:src\\identity\\identity.application\\authentication\\login\\oneid\\oneidlogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EECC14-EDF5-45A7-AC47-360CE9EF384C}|src\\Identity\\Identity.Application\\Identity.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\identity\\identity.application\\authentication\\login\\oneid\\oneidlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EECC14-EDF5-45A7-AC47-360CE9EF384C}|src\\Identity\\Identity.Application\\Identity.Application.csproj|solutionrelative:src\\identity\\identity.application\\authentication\\login\\oneid\\oneidlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\units\\create\\createunitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\units\\create\\createunitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EECC14-EDF5-45A7-AC47-360CE9EF384C}|src\\Identity\\Identity.Application\\Identity.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\identity\\identity.application\\roles\\create\\createrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EECC14-EDF5-45A7-AC47-360CE9EF384C}|src\\Identity\\Identity.Application\\Identity.Application.csproj|solutionrelative:src\\identity\\identity.application\\roles\\create\\createrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86D380D-92CC-4A3F-AEB1-54190859DECD}|src\\Core\\Core.Domain\\Core.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\core\\core.domain\\roles\\roletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86D380D-92CC-4A3F-AEB1-54190859DECD}|src\\Core\\Core.Domain\\Core.Domain.csproj|solutionrelative:src\\core\\core.domain\\roles\\roletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EECC14-EDF5-45A7-AC47-360CE9EF384C}|src\\Identity\\Identity.Application\\Identity.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\identity\\identity.application\\files\\upload\\uploadfilecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EECC14-EDF5-45A7-AC47-360CE9EF384C}|src\\Identity\\Identity.Application\\Identity.Application.csproj|solutionrelative:src\\identity\\identity.application\\files\\upload\\uploadfilecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5899B9F-3535-A1D5-6B5F-5610E4D4E021}|src\\Api\\Maydon.Host\\Maydon.Host.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\api\\maydon.host\\endpoints\\file\\files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5899B9F-3535-A1D5-6B5F-5610E4D4E021}|src\\Api\\Maydon.Host\\Maydon.Host.csproj|solutionrelative:src\\api\\maydon.host\\endpoints\\file\\files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EECC14-EDF5-45A7-AC47-360CE9EF384C}|src\\Identity\\Identity.Application\\Identity.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\identity\\identity.application\\files\\upload\\uploadfilecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EECC14-EDF5-45A7-AC47-360CE9EF384C}|src\\Identity\\Identity.Application\\Identity.Application.csproj|solutionrelative:src\\identity\\identity.application\\files\\upload\\uploadfilecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5899B9F-3535-A1D5-6B5F-5610E4D4E021}|src\\Api\\Maydon.Host\\Maydon.Host.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\api\\maydon.host\\endpoints\\building\\leases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5899B9F-3535-A1D5-6B5F-5610E4D4E021}|src\\Api\\Maydon.Host\\Maydon.Host.csproj|solutionrelative:src\\api\\maydon.host\\endpoints\\building\\leases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\moderations\\realestates\\reject\\rejectmoderationrealestatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\moderations\\realestates\\reject\\rejectmoderationrealestatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\realestates\\realestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\realestates\\realestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\moderations\\realestates\\reject\\rejectmoderationrealestatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\moderations\\realestates\\reject\\rejectmoderationrealestatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\statuses\\moderationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\statuses\\moderationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\units\\unitspecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\units\\unitspecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\floors\\floor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\floors\\floor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\moderations\\realestates\\get\\getmoderationrealestatesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\moderations\\realestates\\get\\getmoderationrealestatesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\moderations\\realestates\\get\\getmoderationrealestatesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\moderations\\realestates\\get\\getmoderationrealestatesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\realestatetypes\\realestatetypefield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\realestatetypes\\realestatetypefield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\realestatetypes\\realestatetypetranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\realestatetypes\\realestatetypetranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\realestatetypes\\realestatetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\realestatetypes\\realestatetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\realestates\\get\\getrealestatesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\realestates\\get\\getrealestatesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\realestates\\get\\getrealestatesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\realestates\\get\\getrealestatesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541C0CD8-E1EE-4A7A-B1E1-FCA37A98731A}|src\\Aspire\\maydon.AppHost\\maydon.AppHost.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\aspire\\maydon.apphost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{541C0CD8-E1EE-4A7A-B1E1-FCA37A98731A}|src\\Aspire\\maydon.AppHost\\maydon.AppHost.csproj|solutionrelative:src\\aspire\\maydon.apphost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF36FFA-B56F-1EB0-0B03-646ADAE060D5}|src\\Api\\Maydon.Administration.Host\\Maydon.Administration.Host.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\api\\maydon.administration.host\\endpoints\\building\\amenitycategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF36FFA-B56F-1EB0-0B03-646ADAE060D5}|src\\Api\\Maydon.Administration.Host\\Maydon.Administration.Host.csproj|solutionrelative:src\\api\\maydon.administration.host\\endpoints\\building\\amenitycategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541C0CD8-E1EE-4A7A-B1E1-FCA37A98731A}|src\\Aspire\\maydon.AppHost\\maydon.AppHost.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\aspire\\maydon.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541C0CD8-E1EE-4A7A-B1E1-FCA37A98731A}|src\\Aspire\\maydon.AppHost\\maydon.AppHost.csproj|solutionrelative:src\\aspire\\maydon.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\amenitycategories\\create\\createamenitycategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\amenitycategories\\create\\createamenitycategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\amenities\\create\\createamenitycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\amenities\\create\\createamenitycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\amenitycategories\\amenitycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\amenitycategories\\amenitycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\realestates\\create\\createrealestatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\realestates\\create\\createrealestatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\SourceServer\\de74c2d25e8642082d5072eceb35da90bd01fac10270de0d7d0fc8eea3027a0c\\src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommandHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\realestates\\create\\createrealestatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\realestates\\create\\createrealestatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\listings\\create\\createlistingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\listings\\create\\createlistingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\floors\\create\\createfloorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\floors\\create\\createfloorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\buildings\\buildingtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\buildings\\buildingtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\buildings\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\buildings\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{397CD6ED-D2B7-4359-875F-9670888C833F}|src\\Building\\Building.Infrastructure\\Building.Infrastructure.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.infrastructure\\database\\configurations\\buildingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{397CD6ED-D2B7-4359-875F-9670888C833F}|src\\Building\\Building.Infrastructure\\Building.Infrastructure.csproj|solutionrelative:src\\building\\building.infrastructure\\database\\configurations\\buildingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\buildings\\create\\createbuildingcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\buildings\\create\\createbuildingcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\buildings\\get\\getbuildingsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\buildings\\get\\getbuildingsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\buildings\\getbyid\\getbuildingbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\buildings\\getbyid\\getbuildingbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\floors\\get\\getfloorsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\floors\\get\\getfloorsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\floors\\get\\getfloorsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\floors\\get\\getfloorsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\floors\\get\\getfloorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\floors\\get\\getfloorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\listings\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\listings\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\wishlists\\get\\getwishlistsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\wishlists\\get\\getwishlistsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\listings\\create\\createlistingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\listings\\create\\createlistingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\statuses\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\statuses\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\realestates\\getmy\\getmyrealestatesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\realestates\\getmy\\getmyrealestatesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Aspire\\maydon.AppHost\\obj\\Debug\\net10.0\\Aspire\\references\\_AppHost.ProjectMetadata.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Aspire\\maydon.AppHost\\obj\\Debug\\net10.0\\Aspire\\references\\_AppHost.ProjectMetadata.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.domain\\realestates\\realestatespecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6C2A73-B837-4D8F-9160-0E724B8FAAD9}|src\\Building\\Building.Domain\\Building.Domain.csproj|solutionrelative:src\\building\\building.domain\\realestates\\realestatespecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\building\\building.application\\core\\abstractions\\data\\ibuildingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA08B15-2946-A494-E3B7-E8C5B3CE3B32}|src\\Building\\Building.Application\\Building.Application.csproj|solutionrelative:src\\building\\building.application\\core\\abstractions\\data\\ibuildingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D19430-6FBF-4B29-86C6-B09743B88550}|src\\Identity\\Identity.Domain\\Identity.Domain.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\identity\\identity.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77D19430-6FBF-4B29-86C6-B09743B88550}|src\\Identity\\Identity.Domain\\Identity.Domain.csproj|solutionrelative:src\\identity\\identity.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EECC14-EDF5-45A7-AC47-360CE9EF384C}|src\\Identity\\Identity.Application\\Identity.Application.csproj|c:\\users\\user\\maydon\\web\\maydon-api\\src\\identity\\identity.application\\users\\updatelogo\\updateuserlogocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EECC14-EDF5-45A7-AC47-360CE9EF384C}|src\\Identity\\Identity.Application\\Identity.Application.csproj|solutionrelative:src\\identity\\identity.application\\users\\updatelogo\\updateuserlogocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7615f12e-922a-545a-b9a0-3305b93d08c0}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuildingPermissions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Administration.Host\\Permissions\\Building\\BuildingPermissions.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Maydon.Administration.Host\\Permissions\\Building\\BuildingPermissions.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Administration.Host\\Permissions\\Building\\BuildingPermissions.cs",
+              "RelativeToolTip": "src\\Api\\Maydon.Administration.Host\\Permissions\\Building\\BuildingPermissions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T09:36:24.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Files.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Administration.Host\\Endpoints\\Building\\Files.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Maydon.Administration.Host\\Endpoints\\Building\\Files.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Administration.Host\\Endpoints\\Building\\Files.cs",
+              "RelativeToolTip": "src\\Api\\Maydon.Administration.Host\\Endpoints\\Building\\Files.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T09:36:17.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateComplexCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Complexes\\Create\\CreateComplexCommand.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Complexes\\Create\\CreateComplexCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Complexes\\Create\\CreateComplexCommand.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Complexes\\Create\\CreateComplexCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T09:25:26.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetRegionByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Common\\Common.Application\\Regions\\GetById\\GetRegionByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Common\\Common.Application\\Regions\\GetById\\GetRegionByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Common\\Common.Application\\Regions\\GetById\\GetRegionByIdQueryHandler.cs",
+              "RelativeToolTip": "src\\Common\\Common.Application\\Regions\\GetById\\GetRegionByIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T07:02:03.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetRegionsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Common\\Common.Application\\Regions\\Get\\GetRegionsQuery.cs",
+              "RelativeDocumentMoniker": "src\\Common\\Common.Application\\Regions\\Get\\GetRegionsQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Common\\Common.Application\\Regions\\Get\\GetRegionsQuery.cs",
+              "RelativeToolTip": "src\\Common\\Common.Application\\Regions\\Get\\GetRegionsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T07:01:56.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetRegionByIdResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Common\\Common.Application\\Regions\\GetById\\GetRegionByIdResponse.cs",
+              "RelativeDocumentMoniker": "src\\Common\\Common.Application\\Regions\\GetById\\GetRegionByIdResponse.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Common\\Common.Application\\Regions\\GetById\\GetRegionByIdResponse.cs",
+              "RelativeToolTip": "src\\Common\\Common.Application\\Regions\\GetById\\GetRegionByIdResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T07:00:32.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateRegionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Common\\Common.Application\\Regions\\Update\\UpdateRegionCommand.cs",
+              "RelativeDocumentMoniker": "src\\Common\\Common.Application\\Regions\\Update\\UpdateRegionCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Common\\Common.Application\\Regions\\Update\\UpdateRegionCommand.cs",
+              "RelativeToolTip": "src\\Common\\Common.Application\\Regions\\Update\\UpdateRegionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T06:57:00.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Regions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Administration.Host\\Endpoints\\Common\\Regions.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Maydon.Administration.Host\\Endpoints\\Common\\Regions.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Administration.Host\\Endpoints\\Common\\Regions.cs",
+              "RelativeToolTip": "src\\Api\\Maydon.Administration.Host\\Endpoints\\Common\\Regions.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAxwCcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T06:54:46.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LocalizationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Administration.Host\\Extensions\\LocalizationExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Maydon.Administration.Host\\Extensions\\LocalizationExtensions.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Administration.Host\\Extensions\\LocalizationExtensions.cs",
+              "RelativeToolTip": "src\\Api\\Maydon.Administration.Host\\Extensions\\LocalizationExtensions.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwE8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T06:08:48.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateRegionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Common\\Common.Application\\Regions\\Create\\CreateRegionCommand.cs",
+              "RelativeDocumentMoniker": "src\\Common\\Common.Application\\Regions\\Create\\CreateRegionCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Common\\Common.Application\\Regions\\Create\\CreateRegionCommand.cs",
+              "RelativeToolTip": "src\\Common\\Common.Application\\Regions\\Create\\CreateRegionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T02:15:20.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Common\\Common.Domain\\Regions\\Region.cs",
+              "RelativeDocumentMoniker": "src\\Common\\Common.Domain\\Regions\\Region.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Common\\Common.Domain\\Regions\\Region.cs",
+              "RelativeToolTip": "src\\Common\\Common.Domain\\Regions\\Region.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T02:05:34.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Administration.Host\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Api\\Maydon.Administration.Host\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Administration.Host\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Api\\Maydon.Administration.Host\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-20T00:00:51.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:55:05.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OneIdLoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Application\\Authentication\\Login\\OneId\\OneIdLoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Identity\\Identity.Application\\Authentication\\Login\\OneId\\OneIdLoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Application\\Authentication\\Login\\OneId\\OneIdLoginCommandHandler.cs",
+              "RelativeToolTip": "src\\Identity\\Identity.Application\\Authentication\\Login\\OneId\\OneIdLoginCommandHandler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T13:55:21.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OneIdLoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Application\\Authentication\\Login\\OneId\\OneIdLoginCommand.cs",
+              "RelativeDocumentMoniker": "src\\Identity\\Identity.Application\\Authentication\\Login\\OneId\\OneIdLoginCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Application\\Authentication\\Login\\OneId\\OneIdLoginCommand.cs",
+              "RelativeToolTip": "src\\Identity\\Identity.Application\\Authentication\\Login\\OneId\\OneIdLoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T13:55:16.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RoleType.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Core\\Core.Domain\\Roles\\RoleType.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Core.Domain\\Roles\\RoleType.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Core\\Core.Domain\\Roles\\RoleType.cs",
+              "RelativeToolTip": "src\\Core\\Core.Domain\\Roles\\RoleType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:31:24.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateRoleCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Application\\Roles\\Create\\CreateRoleCommand.cs",
+              "RelativeDocumentMoniker": "src\\Identity\\Identity.Application\\Roles\\Create\\CreateRoleCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Application\\Roles\\Create\\CreateRoleCommand.cs",
+              "RelativeToolTip": "src\\Identity\\Identity.Application\\Roles\\Create\\CreateRoleCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T09:57:18.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UploadFileCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Application\\Files\\Upload\\UploadFileCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Identity\\Identity.Application\\Files\\Upload\\UploadFileCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Application\\Files\\Upload\\UploadFileCommandHandler.cs",
+              "RelativeToolTip": "src\\Identity\\Identity.Application\\Files\\Upload\\UploadFileCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T09:40:03.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Leases.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Host\\Endpoints\\Building\\Leases.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Maydon.Host\\Endpoints\\Building\\Leases.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Host\\Endpoints\\Building\\Leases.cs",
+              "RelativeToolTip": "src\\Api\\Maydon.Host\\Endpoints\\Building\\Leases.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwC8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T09:38:57.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Files.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Host\\Endpoints\\File\\Files.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Maydon.Host\\Endpoints\\File\\Files.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Host\\Endpoints\\File\\Files.cs",
+              "RelativeToolTip": "src\\Api\\Maydon.Host\\Endpoints\\File\\Files.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswEAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T09:38:40.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateUnitCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Units\\Create\\CreateUnitCommand.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Units\\Create\\CreateUnitCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Units\\Create\\CreateUnitCommand.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Units\\Create\\CreateUnitCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T09:32:32.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RejectModerationRealEstateCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Moderations\\RealEstates\\Reject\\RejectModerationRealEstateCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Moderations\\RealEstates\\Reject\\RejectModerationRealEstateCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Moderations\\RealEstates\\Reject\\RejectModerationRealEstateCommandHandler.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Moderations\\RealEstates\\Reject\\RejectModerationRealEstateCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T07:34:32.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RejectModerationRealEstateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Moderations\\RealEstates\\Reject\\RejectModerationRealEstateCommand.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Moderations\\RealEstates\\Reject\\RejectModerationRealEstateCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Moderations\\RealEstates\\Reject\\RejectModerationRealEstateCommand.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Moderations\\RealEstates\\Reject\\RejectModerationRealEstateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T07:34:27.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Units\\Unit.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\Units\\Unit.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Units\\Unit.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\Units\\Unit.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowFwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T07:27:06.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UnitSpecs.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Units\\UnitSpecs.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\Units\\UnitSpecs.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Units\\UnitSpecs.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\Units\\UnitSpecs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T07:26:56.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ModerationStatus.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Statuses\\ModerationStatus.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\Statuses\\ModerationStatus.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Statuses\\ModerationStatus.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\Statuses\\ModerationStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T06:59:53.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GetModerationRealEstatesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Moderations\\RealEstates\\Get\\GetModerationRealEstatesQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Moderations\\RealEstates\\Get\\GetModerationRealEstatesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Moderations\\RealEstates\\Get\\GetModerationRealEstatesQueryHandler.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Moderations\\RealEstates\\Get\\GetModerationRealEstatesQueryHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T06:55:51.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GetModerationRealEstatesQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Moderations\\RealEstates\\Get\\GetModerationRealEstatesQuery.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Moderations\\RealEstates\\Get\\GetModerationRealEstatesQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Moderations\\RealEstates\\Get\\GetModerationRealEstatesQuery.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Moderations\\RealEstates\\Get\\GetModerationRealEstatesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T06:55:46.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RealEstateTypeField.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\RealEstateTypes\\RealEstateTypeField.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\RealEstateTypes\\RealEstateTypeField.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\RealEstateTypes\\RealEstateTypeField.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\RealEstateTypes\\RealEstateTypeField.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T05:20:09.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RealEstateTypeTranslate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\RealEstateTypes\\RealEstateTypeTranslate.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\RealEstateTypes\\RealEstateTypeTranslate.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\RealEstateTypes\\RealEstateTypeTranslate.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\RealEstateTypes\\RealEstateTypeTranslate.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T05:19:58.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RealEstateType.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\RealEstateTypes\\RealEstateType.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\RealEstateTypes\\RealEstateType.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\RealEstateTypes\\RealEstateType.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\RealEstateTypes\\RealEstateType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T05:19:40.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GetRealEstatesQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\RealEstates\\Get\\GetRealEstatesQuery.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\RealEstates\\Get\\GetRealEstatesQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\RealEstates\\Get\\GetRealEstatesQuery.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\RealEstates\\Get\\GetRealEstatesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T17:37:22.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CreateAmenityCategoryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\AmenityCategories\\Create\\CreateAmenityCategoryCommand.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\AmenityCategories\\Create\\CreateAmenityCategoryCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\AmenityCategories\\Create\\CreateAmenityCategoryCommand.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\AmenityCategories\\Create\\CreateAmenityCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T10:15:27.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CreateAmenityCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Amenities\\Create\\CreateAmenityCommand.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Amenities\\Create\\CreateAmenityCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Amenities\\Create\\CreateAmenityCommand.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Amenities\\Create\\CreateAmenityCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T10:14:50.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AmenityCategories.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Administration.Host\\Endpoints\\Building\\AmenityCategories.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Maydon.Administration.Host\\Endpoints\\Building\\AmenityCategories.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Administration.Host\\Endpoints\\Building\\AmenityCategories.cs",
+              "RelativeToolTip": "src\\Api\\Maydon.Administration.Host\\Endpoints\\Building\\AmenityCategories.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T10:14:45.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AmenityCategory.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\AmenityCategories\\AmenityCategory.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\AmenityCategories\\AmenityCategory.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\AmenityCategories\\AmenityCategory.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\AmenityCategories\\AmenityCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T10:14:37.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Host\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Api\\Maydon.Host\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Api\\Maydon.Host\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Api\\Maydon.Host\\appsettings.Development.json",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-17T09:24:41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CreateRealEstateCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\SourceServer\\de74c2d25e8642082d5072eceb35da90bd01fac10270de0d7d0fc8eea3027a0c\\src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\de74c2d25e8642082d5072eceb35da90bd01fac10270de0d7d0fc8eea3027a0c\\src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\SourceServer\\de74c2d25e8642082d5072eceb35da90bd01fac10270de0d7d0fc8eea3027a0c\\src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommandHandler.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\de74c2d25e8642082d5072eceb35da90bd01fac10270de0d7d0fc8eea3027a0c\\src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommandHandler.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T08:52:30.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CreateRealEstateCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommandHandler.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommandHandler.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAwIEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T07:18:16.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BuildingType.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Buildings\\BuildingType.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\Buildings\\BuildingType.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Buildings\\BuildingType.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\Buildings\\BuildingType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T07:10:52.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Building.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Buildings\\Building.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\Buildings\\Building.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Buildings\\Building.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\Buildings\\Building.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T07:03:07.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "BuildingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Infrastructure\\Database\\Configurations\\BuildingConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Infrastructure\\Database\\Configurations\\BuildingConfiguration.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Infrastructure\\Database\\Configurations\\BuildingConfiguration.cs",
+              "RelativeToolTip": "src\\Building\\Building.Infrastructure\\Database\\Configurations\\BuildingConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T07:03:01.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CreateBuildingCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Buildings\\Create\\CreateBuildingCommandValidator.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Buildings\\Create\\CreateBuildingCommandValidator.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Buildings\\Create\\CreateBuildingCommandValidator.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Buildings\\Create\\CreateBuildingCommandValidator.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T07:02:54.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CreateFloorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Floors\\Create\\CreateFloorCommand.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Floors\\Create\\CreateFloorCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Floors\\Create\\CreateFloorCommand.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Floors\\Create\\CreateFloorCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T12:56:16.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Floor.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Floors\\Floor.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\Floors\\Floor.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Floors\\Floor.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\Floors\\Floor.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T08:00:06.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GetBuildingsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Buildings\\Get\\GetBuildingsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Buildings\\Get\\GetBuildingsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Buildings\\Get\\GetBuildingsQueryHandler.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Buildings\\Get\\GetBuildingsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T06:04:01.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "GetBuildingByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Buildings\\GetById\\GetBuildingByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Buildings\\GetById\\GetBuildingByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Buildings\\GetById\\GetBuildingByIdQueryHandler.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Buildings\\GetById\\GetBuildingByIdQueryHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T06:03:44.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "GetFloorsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Floors\\Get\\GetFloorsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Floors\\Get\\GetFloorsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Floors\\Get\\GetFloorsQueryHandler.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Floors\\Get\\GetFloorsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T06:03:16.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "GetFloorsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Floors\\Get\\GetFloorsResponse.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Floors\\Get\\GetFloorsResponse.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Floors\\Get\\GetFloorsResponse.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Floors\\Get\\GetFloorsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T06:02:25.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "GetFloorsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Floors\\Get\\GetFloorsQuery.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Floors\\Get\\GetFloorsQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Floors\\Get\\GetFloorsQuery.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Floors\\Get\\GetFloorsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T06:02:22.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UploadFileCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Application\\Files\\Upload\\UploadFileCommand.cs",
+              "RelativeDocumentMoniker": "src\\Identity\\Identity.Application\\Files\\Upload\\UploadFileCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Application\\Files\\Upload\\UploadFileCommand.cs",
+              "RelativeToolTip": "src\\Identity\\Identity.Application\\Files\\Upload\\UploadFileCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T11:00:55.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "GetWishlistsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Wishlists\\Get\\GetWishlistsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Wishlists\\Get\\GetWishlistsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Wishlists\\Get\\GetWishlistsQueryHandler.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Wishlists\\Get\\GetWishlistsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T09:26:39.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Listing.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Listings\\Listing.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\Listings\\Listing.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Listings\\Listing.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\Listings\\Listing.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T09:20:29.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CreateListingCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Listings\\Create\\CreateListingCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Listings\\Create\\CreateListingCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Listings\\Create\\CreateListingCommandHandler.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Listings\\Create\\CreateListingCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T08:28:49.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Statuses\\Status.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\Statuses\\Status.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\Statuses\\Status.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\Statuses\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T07:42:38.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreateRealEstateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommand.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommand.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\RealEstates\\Create\\CreateRealEstateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T05:40:58.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateListingCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Listings\\Create\\CreateListingCommand.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Listings\\Create\\CreateListingCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Listings\\Create\\CreateListingCommand.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Listings\\Create\\CreateListingCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T16:43:08.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AppHost.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Aspire\\maydon.AppHost\\AppHost.cs",
+              "RelativeDocumentMoniker": "src\\Aspire\\maydon.AppHost\\AppHost.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Aspire\\maydon.AppHost\\AppHost.cs",
+              "RelativeToolTip": "src\\Aspire\\maydon.AppHost\\AppHost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T14:01:16.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "_AppHost.ProjectMetadata.g.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Aspire\\maydon.AppHost\\obj\\Debug\\net10.0\\Aspire\\references\\_AppHost.ProjectMetadata.g.cs",
+              "RelativeDocumentMoniker": "src\\Aspire\\maydon.AppHost\\obj\\Debug\\net10.0\\Aspire\\references\\_AppHost.ProjectMetadata.g.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Aspire\\maydon.AppHost\\obj\\Debug\\net10.0\\Aspire\\references\\_AppHost.ProjectMetadata.g.cs",
+              "RelativeToolTip": "src\\Aspire\\maydon.AppHost\\obj\\Debug\\net10.0\\Aspire\\references\\_AppHost.ProjectMetadata.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T14:01:08.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RealEstate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\RealEstates\\RealEstate.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\RealEstates\\RealEstate.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\RealEstates\\RealEstate.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\RealEstates\\RealEstate.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAEwBcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T16:52:08.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetRealEstatesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\RealEstates\\Get\\GetRealEstatesQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\RealEstates\\Get\\GetRealEstatesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\RealEstates\\Get\\GetRealEstatesQueryHandler.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\RealEstates\\Get\\GetRealEstatesQueryHandler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T16:49:35.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "RealEstateSpecs.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\RealEstates\\RealEstateSpecs.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Domain\\RealEstates\\RealEstateSpecs.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Domain\\RealEstates\\RealEstateSpecs.cs",
+              "RelativeToolTip": "src\\Building\\Building.Domain\\RealEstates\\RealEstateSpecs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T16:48:08.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IBuildingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Core\\Abstractions\\Data\\IBuildingDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\Core\\Abstractions\\Data\\IBuildingDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\Core\\Abstractions\\Data\\IBuildingDbContext.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\Core\\Abstractions\\Data\\IBuildingDbContext.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA9wEoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T15:09:52.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "GetMyRealEstatesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\RealEstates\\GetMy\\GetMyRealEstatesQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Building\\Building.Application\\RealEstates\\GetMy\\GetMyRealEstatesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Building\\Building.Application\\RealEstates\\GetMy\\GetMyRealEstatesQueryHandler.cs",
+              "RelativeToolTip": "src\\Building\\Building.Application\\RealEstates\\GetMy\\GetMyRealEstatesQueryHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T15:09:06.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Domain\\Users\\User.cs",
+              "RelativeDocumentMoniker": "src\\Identity\\Identity.Domain\\Users\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Domain\\Users\\User.cs",
+              "RelativeToolTip": "src\\Identity\\Identity.Domain\\Users\\User.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T15:58:32.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "UpdateUserLogoCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Application\\Users\\UpdateLogo\\UpdateUserLogoCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Identity\\Identity.Application\\Users\\UpdateLogo\\UpdateUserLogoCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Identity\\Identity.Application\\Users\\UpdateLogo\\UpdateUserLogoCommandHandler.cs",
+              "RelativeToolTip": "src\\Identity\\Identity.Application\\Users\\UpdateLogo\\UpdateUserLogoCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T15:58:24.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Aspire\\maydon.AppHost\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Aspire\\maydon.AppHost\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Maydon\\web\\maydon-api\\src\\Aspire\\maydon.AppHost\\appsettings.json",
+              "RelativeToolTip": "src\\Aspire\\maydon.AppHost\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-06T15:41:16.607Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 125,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

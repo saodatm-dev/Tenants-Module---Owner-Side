@@ -65,6 +65,6 @@ Applicant → Contract Signed → Active Tenant → Lease Ending → Move-Out Co
 
 * **A tenant cannot exist without a contract.** The contract signing is the only event that creates a tenant record. There is no way to manually add a tenant without a signed lease.
 * **Tenant creation is automatic.** When a contract is signed in the system, the tenant record is generated automatically — the owner does not need to create it separately.
-* **Tenants are never deleted.** When a tenancy ends and move-out is completed, the tenant is moved to "Former Tenant" status. Their full history remains in the system permanently for reference (payment reliability, lease compliance, etc.).
+* **Tenants are not deleted automatically.** When a tenancy ends and move-out is completed, the tenant is moved to "Former Tenant" status. Their full history remains in the system for reference (payment reliability, lease compliance, etc.).
 * **Move-out is always manual.** The system never automatically converts an active tenant to a former tenant. The owner must explicitly confirm that the tenant has vacated. This prevents errors where a holdover tenant is accidentally removed from billing.
-* **One tenant, one unit, one contract.** At any given time, a tenant is linked to exactly one unit through exactly one active contract.
+* **Each tenant rents one property under one contract.** A tenant can only be linked to a single property through a single active lease at a time. If the same person rents a second property, they are tracked as a separate tenant record.

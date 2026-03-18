@@ -54,12 +54,12 @@ Applicant → Contract Signed → Active Tenant → Lease Ending → Move-Out Co
 | # | Stage | Trigger | What Happens |
 |---|-------|---------|--------------|
 | 1 | **Applicant** | Owner receives a rental application | The person exists only in the Applications module. They have no tenant record yet. |
-| 2 | **Contract Signed** | Both parties sign the lease (digitally or physically) | The system automatically creates a Tenant record and links it to the assigned property/unit. The tenant appears in this module for the first time. |
-| 3 | **Active Tenant** | Contract start date arrives (or immediately, if the start date is today or earlier) | The tenant is marked as "Active." Billing begins, the unit is marked as occupied, and the tenant gains property access. |
+| 2 | **Contract Signed** | Both parties sign the lease digitally or add already signed lease | The system automatically creates a Tenant record and links it to the assigned property/unit. The tenant appears in this module for the first time. |
+| 3 | **Active Tenant** | Contract start date arrives (or immediately, if the start date is today or earlier) | The tenant is marked as "Active." Billing begins, the property is marked as occupied, and the tenant gains property access. |
 | 4 | **Lease Ending** | Contract end date is approaching (system sends notifications) | Both the owner and tenant are notified. The owner can renew the contract, start a new one, or prepare for move-out. |
 | 5 | **Overstaying** | Contract end date passes without renewal or move-out | The tenant stays "Active" but is visually flagged as *Expired / Overstaying* in the UI. Billing continues. The tenant is **not** automatically removed. |
-| 6 | **Move-Out Completed** | Owner manually logs a completed move-out | The tenant loses property access. The unit is freed up for a new tenant. |
-| 7 | **Former Tenant** | Move-out is recorded | The tenant's profile is archived. All history (payments, notes, documents) is preserved for reference. The record is never deleted. |
+| 6 | **Move-Out Completed** | Owner manually logs a completed move-out | The tenant loses property access. The property is freed up for a new tenant. |
+| 7 | **Former Tenant** | Move-out is recorded | The tenant's profile is archived. All history (payments, notes, documents) is preserved for reference. The record is not deleted automatically, without owner's command. |
 
 ### Key Rules
 

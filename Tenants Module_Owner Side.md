@@ -11,9 +11,9 @@ The Tenants module is the property owner's central database for managing confirm
 
 ### What problems does it solve?
 * **Data Accessibility:** Eliminates the need to search through contracts in the "Contracts" section to access important documents.
-* **Occupancy Tracking:** Shows exactly who occupies which unit, upcoming move-outs, and past tenancies at a glance.
+* **Occupancy Tracking:** Shows exactly who occupies which property, upcoming move-outs, and past tenancies at a glance.
 * **Tenant History:** Builds a historical record of tenant behavior (payments, property care, compliance) to inform lease renewal decisions.
-* **Operational Efficiency:** Consolidates unit, contract, and payment data into a single, actionable view.
+* **Operational Efficiency:** Consolidates property, contract, and payment data into a single, actionable view.
 
 ### Relationship with Other Modules
 The Tenants module works closely with other system components but serves a distinct purpose from Applications.

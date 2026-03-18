@@ -3,11 +3,11 @@
 ## 1. Module Overview
 
 ### What is the Tenants Module?
-The Tenants module is a centralized, CRM-like operational hub designed for property owners to manage their confirmed tenants. It transitions the owner’s perspective from "filling a vacancy" to "managing a long-term relationship." It acts as a structured database and workspace for all tenant-related data, encompassing active renters, past tenants, and their complete rental history. 
+The Tenants module is a centralized operational hub designed for property owners to manage their confirmed tenants. It transitions the owner’s perspective from "filling a vacancy" to "managing a long-term relationship." It acts as a structured database and workspace for all tenant-related data, encompassing active renters, past tenants, and their complete rental history. 
 
 ### Who uses it?
 * **Property Owners (Landlords):** Managing their own portfolio of properties.
-* **Property Managers / Administrative Staff:** Assisting owners in day-to-day operations, requiring quick access to tenant contacts, contract statuses, and historical notes.
+* **Property Managers:** Assisting owners in day-to-day operations, requiring quick access to tenant contacts, contract statuses, and historical notes.
 
 ### What problems does it solve for the owner?
 * **Data Fragmentation:** Eliminates the need to search through emails, messaging apps (Telegram/WhatsApp), and physical folders to find tenant details, passport copies, or emergency contacts.

@@ -146,14 +146,14 @@ This section lists what the owner can do within the Tenants module. Actions are 
 | **Contact tenant** | Overview tab in cabinet | Initiate a call or message using the tenant's stored phone number or email. |
 | **Mark as removed** | Cabinet action menu | Manually change the tenant's status to "Removed." Requires confirmation. |
 | **Log move-out** | Cabinet action menu | Manually record that the tenant has vacated. Changes status to "Former." Requires confirmation. |
-| **Renew contract** | Contract tab in cabinet | Initiates a contract renewal flow (redirects to the Contracts module). On completion, the tenant's status returns to "Active." |
+| **Renew contract** | Documents tab in cabinet | Initiates a contract renewal flow (redirects to the Contracts module). On completion, the tenant's status returns to "Active." |
 
 ### What the Owner Cannot Do
 
 * **Manually create a tenant.** Tenants are only created automatically when a contract is signed.
 * **Delete a tenant record.** Records are permanent. Former and removed tenants are archived, not deleted.
 * **Change a tenant's status to Active or Pending Move-In.** These statuses are controlled by the system based on contract dates.
-* **Edit the History tab.** The event log is system-generated and cannot be modified.
+* **Edit the activity timeline.** The event log in the Overview tab is system-generated and cannot be modified.
 
 ---
 

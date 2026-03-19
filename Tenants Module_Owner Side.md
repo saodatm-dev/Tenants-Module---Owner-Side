@@ -332,7 +332,7 @@ The Tenants module does not operate in isolation. It is connected to four other 
 
 * **No duplicate records.** If the same person signs a second contract (for a different unit), a new rental entry is created under the *same* tenant record rather than creating a second tenant.
 * **Data stays in its home module.** The Tenants module displays contract and payment data using read-only references. Editing a contract is done in the Contracts module; managing payments is done in the Payments module.
-* **Deleting a property does not delete the tenant.** If a property or unit is removed from the system, the tenant record remains with a note indicating the property is no longer active.!
+* **Deleting a property does not delete the tenant.** When a property or unit is removed from the system, its active tenants remain intact. The property field on their profile simply displays as "No longer in system".
 
 ---
 
@@ -349,7 +349,7 @@ A single tenant can rent more than one property (within the same or different bu
 
 ### Early Departure
 
-If a tenant leaves before the contract end date, the owner manually logs the move-out. The status changes to "Former" if both parties decide to terminate  the contract. The contract itself is terminated in the Contracts module (termination, penalties, etc.).
+If a tenant leaves before the contract end date, the owner manually logs the move-out. The status changes to "Former" if both parties decide to terminate the contract. The contract itself is terminated in the Contracts module (termination, penalties, etc.).
 
 ### Overstaying Tenants
 

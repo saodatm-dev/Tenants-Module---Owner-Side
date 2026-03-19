@@ -141,19 +141,19 @@ This section lists what the owner can do within the Tenants module. Actions are 
 | **Search tenants** | Top search bar | Search by tenant name, phone number, or property address. Results update as the owner types. |
 | **Filter by status** | Filter bar | Filter the tenant list by one or more statuses (Active, Pending Move-In, Lease Ending, Overstaying, Former, Removed). |
 | **Filter by property** | Filter bar | Filter tenants by a specific property or unit. |
-| **Add a note** | Notes tab in cabinet | Write a free-form internal note about the tenant. |
-| **Upload a document** | Documents tab in cabinet | Attach a file (PDF, image, scan) to the tenant's record. |
-| **Contact tenant** | Overview tab in cabinet | Initiate a call or message using the tenant's stored phone number or email. |
+| **Add a note** | Notes section in cabinet | Write a free-form internal note about the tenant. |
+| **Upload a document** | Documents section in cabinet | Attach a file (PDF, image, scan) to the tenant's record. |
+| **Contact tenant** | Overview section in cabinet | Initiate a call or message using the tenant's stored phone number or email. |
 | **Mark as removed** | Cabinet action menu | Manually change the tenant's status to "Removed." Requires confirmation. |
 | **Log move-out** | Cabinet action menu | Manually record that the tenant has vacated. Changes status to "Former." Requires confirmation. |
-| **Renew contract** | Documents tab in cabinet | Initiates a contract renewal flow (redirects to the Contracts module). On completion, the tenant's status returns to "Active." |
+| **Renew contract** | Documents section in cabinet | Initiates a contract renewal flow (redirects to the Contracts module). On completion, the tenant's status returns to "Active." |
 
 ### What the Owner Cannot Do
 
 * **Manually create a tenant.** Tenants are only created automatically when a contract is signed.
 * **Delete a tenant record.** Records are permanent. Former and removed tenants are archived, not deleted.
 * **Change a tenant's status to Active or Pending Move-In.** These statuses are controlled by the system based on contract dates.
-* **Edit the activity timeline.** The event log in the Overview tab is system-generated and cannot be modified.
+* **Edit the activity timeline.** The event log in the Overview section is system-generated and cannot be modified.
 
 ---
 

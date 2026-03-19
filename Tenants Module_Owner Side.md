@@ -162,10 +162,9 @@ This section defines what information a tenant record contains. Every tenant in 
 
 ### Key Rules
 
-* A single tenant can have **multiple rental entries** (one per unit), each with its own contract, payment history, and status.
+* A single tenant can have **multiple rental entries**, each with its own contract, payment history, and status.
 * The **event log** is automatically maintained by the system. It cannot be manually edited or deleted.
-* **Notes** are for internal use only — tenants cannot see them.
-* Tenant records are **never deleted**. Archived records remain accessible for reference.
+* Tenant records are **not deleted automatically**. Archived records remain accessible for reference.
 
 ---
 

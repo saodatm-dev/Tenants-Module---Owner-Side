@@ -278,7 +278,7 @@ The primary view. Tenants are displayed as individual cards in a grid layout.
 * Monthly rent amount
 * Contract end date
 
-Cards are sorted by status priority by default: Active first, then Lease Ending, Overstaying, Pending Move-In, Former, and Removed last. The owner can click any card to open the cabinet.
+Cards are sorted by status priority by default: Active first, then Lease Ending, Overstaying, Pending Move-InFormer, and Removed last. The owner can click any card to open the cabinet.
 
 ### List / Table View
 
@@ -313,7 +313,7 @@ Filters are available in both views and can be combined:
 | **Status** | Active, Pending Move-In, Lease Ending, Overstaying, Former, Removed (multi-select) |
 | **Property** | Dropdown of the owner's properties (single-select) |
 
-Active filters are shown as removable chips above the tenant list. The "Reset" button clears all filters.
+Active filters are shown as removable chips above the tenant list. The "All" button clears all filters.
 
 ---
 

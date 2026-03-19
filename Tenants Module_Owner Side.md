@@ -158,7 +158,6 @@ This section defines what information a tenant record contains. Every tenant in 
 | Field | Description |
 |-------|-------------|
 | **Member since** | Date the tenant record was first created in the system. |
-| **Created by** | How the record was created (automatically from a signed contract). |
 | **Record status** | Whether the record is active or archived (Former / Removed tenants are archived). |
 
 ### Key Rules

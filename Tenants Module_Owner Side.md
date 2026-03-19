@@ -106,94 +106,170 @@ Pending Move-In → Active → Lease Ending → Overstaying → Former
 
 ---
 
-## 5. Tenant Profile (Cabinet)
+## 5. Tenant Profile Structure
 
-When the owner clicks a tenant card, the full tenant profile opens. The page is divided into three areas: a stats bar at the top, a sidebar on the left, and a main content area with four sections.
+This section defines what information a tenant record contains. Every tenant in the system carries the following data, organized into five categories.
 
-### Stats Bar
+### Basic Information
 
-A horizontal bar across the top of the cabinet showing three key indicators at a glance:
+| Field | Description |
+|-------|-------------|
+| **Full name** | Legal name of the tenant (individual) or company name (legal entity). |
+| **Tenant type** | Individual or legal entity. |
+| **Phone number** | Primary contact phone. |
+| **Email** | Contact email address. |
+| **Verification status** | Whether the tenant's identity has been verified through the system (e.g., via OneID or manual document review). |
+| **Status** | Current operational status: Pending Move-In, Active, Lease Ending, Overstaying, Former, or Removed (see Section 4). |
 
-| Indicator | What It Shows |
-|-----------|---------------|
-| **Debt** | Current outstanding balance (0 if fully paid). |
-| **Payments paid** | How many payments have been made out of total due (e.g., "3 of 3"). |
-| **Days remaining** | Number of days until the current contract ends. |
+### Rental Information
 
-### Sidebar (Profile & Actions)
+| Field | Description |
+|-------|-------------|
+| **Property** | The property the tenant is linked to. |
+| **Unit** | The specific unit within the property that the tenant occupies. |
+| **Lease start date** | The date the rental period begins, as defined in the contract. |
+| **Lease end date** | The date the rental period ends, as defined in the contract. |
+| **Contract reference** | A link to the full contract record in the Contracts module. |
 
-The left sidebar displays the tenant's identity and quick actions.
+### Contract Summary
 
-**Profile information:**
-* Avatar (initials)
-* Full name
-* Tenant type (individual or legal entity)
-* Status badge (e.g., Active, Lease Ending)
-* Phone number
-* Email address
-* Member since date
+| Field | Description |
+|-------|-------------|
+| **Contract number** | Unique identifier for the active lease agreement. |
+| **Signing date** | When the contract was signed by both parties. |
+| **Term** | Duration of the lease (e.g., 12 months). |
+| **Monthly rent** | Agreed rent amount per month. |
+| **Deposit** | Security deposit amount held. |
+| **Contract status** | Whether the contract is active, expired, or terminated. |
+| **Renewal history** | Past contracts (if any), listed in chronological order. |
 
-**Quick actions** (below the profile):
+### Operational Data
 
-| Action | Description |
-|--------|-------------|
-| **Record payment** | Log a manual payment entry for this tenant. |
-| **Renew contract** | Start a contract extension flow (redirects to the Contracts module). |
-| **Block** | Restrict the tenant's status. Marks them as blocked/removed. Shown in red. |
+| Field | Description |
+|-------|-------------|
+| **Payment status** | Current debt, number of payments made vs. total due, and next payment date. |
+| **Payment history** | Full list of past payments: amount, billing period, payment date, and status (paid or overdue). |
+| **Notes** | Internal notes added by the owner or property manager. Each note has a timestamp and author. Notes are not visible to the tenant. |
+| **Documents** | Files attached to the tenant record: identity documents, signed contracts, invoices, and any other uploads. Each document has an upload date. |
+| **Event log** | System-generated timeline of all recorded activity: status changes, contract events, payment records, document uploads, and notes added. This log is read-only and cannot be edited. |
 
-### Content Sections
+### System Data
 
-The main area is organized into four sections, accessible via horizontal tabs.
-
-| # | Section | What It Shows |
-|---|---------|---------------|
-| 1 | **Overview** | Rental property card (unit name, address, type, area, occupancy dates), contract summary (contract number, signed date, term, monthly rent, deposit, status), and an event log — a timeline of all recorded activity for this tenant (status changes, record creation, contract events). This is the default section when the cabinet opens. |
-| 2 | **Payments** | Total paid amount and next payment date at the top. Below, a list of all payment records showing the amount, billing period, payment date, and status (paid or overdue). |
-| 3 | **Documents** | All files tied to this tenant: identity documents, signed contracts, and any files uploaded by the owner. Shows upload date and provides download buttons. Documents can be uploaded, downloaded, and previewed. |
-| 4 | **Notes** | A text area for adding new notes with an "Add" button, followed by a list of existing notes. Each note shows the content, date, time, and a delete option. |
+| Field | Description |
+|-------|-------------|
+| **Member since** | Date the tenant record was first created in the system. |
+| **Created by** | How the record was created (automatically from a signed contract). |
+| **Record status** | Whether the record is active or archived (Former / Removed tenants are archived). |
 
 ### Key Rules
 
-* The **Overview** section always opens by default.
-* **Notes** are for internal use by the owner and their property managers.
-* The **event log** in the Overview section is read-only — it is automatically generated by the system and cannot be edited.
-* If a tenant has **multiple active rentals** (multiple units), the Overview section shows each rental separately, clearly labeled.
+* A single tenant can have **multiple rental entries** (one per unit), each with its own contract, payment history, and status.
+* The **event log** is automatically maintained by the system. It cannot be manually edited or deleted.
+* **Notes** are for internal use only — tenants cannot see them.
+* Tenant records are **never deleted**. Archived records remain accessible for reference.
 
 ---
 
 ## 6. Owner Actions
 
-This section lists what the owner can do within the Tenants module.
+This section lists the actions available to the property owner within the Tenants module. For each action: who can perform it, under what conditions, what the system does, and what restrictions apply.
 
-### Sidebar Actions (Inside Cabinet)
+### View Tenant Profile
 
-These are the primary actions available in the tenant cabinet sidebar:
+| | |
+|---|---|
+| **Who** | Owner, Property Manager |
+| **Conditions** | A tenant record exists in the system. |
+| **Result** | Opens the full tenant record with all data (basic info, rental, payments, documents, notes, event log). |
+| **Restrictions** | None. All tenant records (active and archived) are viewable. |
 
-| Action | Description |
-|--------|-------------|
-| **Record payment** | Log a payment manually for this tenant. |
-| **Renew contract** | Start the contract renewal process (redirects to the Contracts module). On completion, the tenant's status returns to "Active." |
-| **Block** | Mark the tenant as blocked/removed due to a lease violation, non-payment, or other reason. Requires confirmation. |
+### Search Tenants
 
-### Actions Available Throughout the Module
+| | |
+|---|---|
+| **Who** | Owner, Property Manager |
+| **Conditions** | None. |
+| **Result** | Filters the tenant list by name, phone number, or property/unit name. Results update in real time. |
+| **Restrictions** | None. |
 
-| Action | Where | Description |
-|--------|-------|-------------|
-| **View tenant profile** | Tenant list or card | Click a tenant card to open the full cabinet. |
-| **Search tenants** | Top search bar | Search by tenant name, phone number, or property/unit name. Results update as the owner types. |
-| **Filter by status** | Filter bar | Filter the tenant list by one or more statuses (Active, Pending Move-In, Lease Ending, Overstaying, Former, Removed). |
-| **Filter by property** | Filter bar | Filter tenants by a specific property or unit. |
-| **Add a note** | Notes section in cabinet | Write a free-form internal note about the tenant. |
-| **Upload a document** | Documents section in cabinet | Attach a file (PDF, image, scan) to the tenant's record. |
-| **Log move-out** | Cabinet action menu | Manually record that the tenant has vacated. Changes status to "Former." Requires confirmation. |
+### Filter Tenants
+
+| | |
+|---|---|
+| **Who** | Owner, Property Manager |
+| **Conditions** | None. |
+| **Result** | Narrows the tenant list by status (Active, Pending Move-In, Lease Ending, Overstaying, Former, Removed) and/or by property. Filters can be combined. |
+| **Restrictions** | None. |
+
+### Record Payment
+
+| | |
+|---|---|
+| **Who** | Owner, Property Manager |
+| **Conditions** | Tenant has an active or overstaying status. |
+| **Result** | Creates a payment entry linked to the tenant's record. Updates debt and payment counters. |
+| **Restrictions** | Cannot record payments for Former or Removed tenants. |
+
+### Renew Contract
+
+| | |
+|---|---|
+| **Who** | Owner |
+| **Conditions** | Tenant has an active, lease ending, or overstaying status. |
+| **Result** | Redirects to the Contracts module to create a new contract or extend the existing one. On completion, the tenant's status returns to "Active" and the lease end date is updated. |
+| **Restrictions** | Cannot renew for Former or Removed tenants. A new contract must be created instead. |
+
+### Add a Note
+
+| | |
+|---|---|
+| **Who** | Owner, Property Manager |
+| **Conditions** | A tenant record exists. |
+| **Result** | Adds a free-form internal note with a timestamp and author. The note appears in the tenant's record. |
+| **Restrictions** | Notes are internal only — tenants cannot see them. Notes can be deleted by the owner. |
+
+### Upload a Document
+
+| | |
+|---|---|
+| **Who** | Owner, Property Manager |
+| **Conditions** | A tenant record exists. |
+| **Result** | Attaches a file (PDF, image, scan) to the tenant's record. The document is logged with an upload date. |
+| **Restrictions** | None. Documents can be uploaded for both active and archived tenants. |
+
+### Log Move-Out
+
+| | |
+|---|---|
+| **Who** | Owner |
+| **Conditions** | Tenant has an active, lease ending, or overstaying status. |
+| **Result** | Changes the tenant's status to "Former." The property/unit is freed for a new tenant. The tenant record is archived but not deleted. |
+| **Restrictions** | Requires confirmation. Cannot be undone — to re-activate, a new contract must be signed. |
+
+### Block Tenant
+
+| | |
+|---|---|
+| **Who** | Owner |
+| **Conditions** | Tenant has an active, lease ending, or overstaying status. |
+| **Result** | Changes the tenant's status to "Removed." The tenant loses access. The record is archived with the reason noted. |
+| **Restrictions** | Requires confirmation. This is a final status — the tenant cannot return to active without a new contract. |
+
+### Contact Tenant
+
+| | |
+|---|---|
+| **Who** | Owner, Property Manager |
+| **Conditions** | Tenant has a phone number or email on file. |
+| **Result** | Initiates a call or message using the tenant's stored contact information. |
+| **Restrictions** | None. Available for both active and archived tenants. |
 
 ### What the Owner Cannot Do
 
 * **Manually create a tenant.** Tenants are only created automatically when a contract is signed.
-* **Delete a tenant record.** Records are permanent. Former and removed tenants are archived, not deleted.
-* **Change a tenant's status to Active or Pending Move-In.** These statuses are controlled by the system based on contract dates.
-* **Edit the event log.** The timeline in the Overview section is system-generated and cannot be modified.
-
+* **Delete a tenant record.** Records are permanent. Archived tenants remain in the system.
+* **Change status to Active or Pending Move-In.** These statuses are controlled by the system based on contract dates.
+* **Edit the event log.** The timeline is system-generated and cannot be modified.
 
 ---
 

@@ -325,14 +325,14 @@ The Tenants module does not operate in isolation. It is connected to four other 
 |--------|-------------|-----------|
 | **Applications** | Source of tenants. | When an application reaches the "Contract Signed" stage, the system automatically creates a tenant record in this module. The applicant's name, contact info, and linked property are carried over. |
 | **Contracts** | Defines the rental relationship timeline. | Contract start/end dates drive tenant status changes (Pending Move-In → Active → Lease Ending → Overstaying). Renewal or signing a new contract resets the status cycle. The tenant cabinet links directly to the full contract record. |
-| **Payments** | Financial tracking. | Payment data (transactions, balances, overdue amounts) is pulled from the Payments module and displayed in the tenant's Payments tab. The Tenants module reads this data but does not manage payments directly. |
+| **Payments** | Financial tracking. | Payment data (transactions, balances, overdue amounts) is pulled from the Payments module and displayed in the tenant's Payments tab. The Tenants module displays this data but does not manage payments directly. |
 | **Listings** | Vacancy management. | When an active tenant's status changes to "Former" or "Removed," the system can notify the owner to prepare a new listing for the vacated unit. This helps minimize downtime between tenants. |
 
 ### Integration Rules
 
 * **No duplicate records.** If the same person signs a second contract (for a different unit), a new rental entry is created under the *same* tenant record rather than creating a second tenant.
 * **Data stays in its home module.** The Tenants module displays contract and payment data using read-only references. Editing a contract is done in the Contracts module; managing payments is done in the Payments module.
-* **Deleting a property does not delete the tenant.** If a property or unit is removed from the system, the tenant record remains with a note indicating the property is no longer active.
+* **Deleting a property does not delete the tenant.** If a property or unit is removed from the system, the tenant record remains with a note indicating the property is no longer active.!
 
 ---
 
@@ -342,14 +342,14 @@ This section documents boundary conditions, limitations, and how the system hand
 
 ### Multi-Unit Tenants
 
-A single tenant can rent more than one unit (within the same or different properties). Each rental has its own contract and is tracked independently. The tenant cabinet shows all active and past rentals under one profile.
+A single tenant can rent more than one property (within the same or different buildings). Each rental has its own contract and is tracked independently. The tenant cabinet shows all active and past rentals under one profile.
 
 * **Status is per-rental, not per-tenant.** If a tenant has two units and one contract is expiring, only that rental shows "Lease Ending." The other rental remains "Active."
 * **The tenant list shows one row per tenant**, not per rental. The card or row displays the primary (most recent) rental. All rentals are visible inside the cabinet.
 
 ### Early Departure
 
-If a tenant leaves before the contract end date, the owner manually logs the move-out. The status changes to "Former" regardless of the remaining contract duration. The contract itself is handled in the Contracts module (termination, penalties, etc.).
+If a tenant leaves before the contract end date, the owner manually logs the move-out. The status changes to "Former" if both parties decide to terminate  the contract. The contract itself is terminated in the Contracts module (termination, penalties, etc.).
 
 ### Overstaying Tenants
 
@@ -364,7 +364,7 @@ If a property or unit is deleted from the system:
 
 ### Tenant Name Changes
 
-If a tenant's legal name changes (e.g., after marriage), the owner cannot edit the name directly in the Tenants module. The name is pulled from the tenant's system profile (linked to their identity). Changes to personal identity data are handled through the system's profile management.
+If a tenant's legal name changes, the owner cannot edit the name directly in the Tenants module. The name is pulled from the tenant's system profile. Changes to personal identity data are handled through the system's profile management.
 
 ### No Automatic Deletion
 

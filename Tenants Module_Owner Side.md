@@ -187,7 +187,7 @@ This section lists the actions available to the property owner within the Tenant
 |---|---|
 | **Who** | Owner, Property Manager |
 | **Conditions** | None. |
-| **Result** | Filters the tenant list by name, phone number, or property/unit name. Results update in real time. |
+| **Result** | Filters the tenant list by name or property/unit name. Results update in real time. |
 | **Restrictions** | None. |
 
 ### Filter Tenants
@@ -196,7 +196,7 @@ This section lists the actions available to the property owner within the Tenant
 |---|---|
 | **Who** | Owner, Property Manager |
 | **Conditions** | None. |
-| **Result** | Narrows the tenant list by status (Active, Pending Move-In, Lease Ending, Overstaying, Former, Removed) and/or by property. Filters can be combined. |
+| **Result** | Narrows the tenant list by status (Active, Lease Ending, Overstaying, Former, Removed) or by property. Filters can be combined. |
 | **Restrictions** | None. |
 
 ### Record Payment
@@ -223,8 +223,8 @@ This section lists the actions available to the property owner within the Tenant
 |---|---|
 | **Who** | Owner, Property Manager |
 | **Conditions** | A tenant record exists. |
-| **Result** | Adds a free-form internal note with a timestamp and author. The note appears in the tenant's record. |
-| **Restrictions** | Notes are internal only — tenants cannot see them. Notes can be deleted by the owner. |
+| **Result** | Adds a free-form note with a timestamp and author. The note appears in the tenant's record. |
+| **Restrictions** | Notes can be deleted by the owner. |
 
 ### Upload a Document
 
@@ -232,7 +232,7 @@ This section lists the actions available to the property owner within the Tenant
 |---|---|
 | **Who** | Owner, Property Manager |
 | **Conditions** | A tenant record exists. |
-| **Result** | Attaches a file (PDF, image, scan) to the tenant's record. The document is logged with an upload date. |
+| **Result** | Attaches a file to the tenant's record. The document is logged with an upload date. |
 | **Restrictions** | None. Documents can be uploaded for both active and archived tenants. |
 
 ### Log Move-Out
@@ -252,15 +252,6 @@ This section lists the actions available to the property owner within the Tenant
 | **Conditions** | Tenant has an active, lease ending, or overstaying status. |
 | **Result** | Changes the tenant's status to "Removed." The tenant loses access. The record is archived with the reason noted. |
 | **Restrictions** | Requires confirmation. This is a final status — the tenant cannot return to active without a new contract. |
-
-### Contact Tenant
-
-| | |
-|---|---|
-| **Who** | Owner, Property Manager |
-| **Conditions** | Tenant has a phone number or email on file. |
-| **Result** | Initiates a call or message using the tenant's stored contact information. |
-| **Restrictions** | None. Available for both active and archived tenants. |
 
 ### What the Owner Cannot Do
 
